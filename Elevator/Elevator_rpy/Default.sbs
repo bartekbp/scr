@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID 2970263e-bdf6-4006-ba3e-12cef9acae52;
 	- _myState = 8192;
 	- _name = "Default";
-	- _modifiedTimeWeak = 11.16.2013::15:10:34;
+	- _modifiedTimeWeak = 11.16.2013::16:52:57;
 	- _lastID = 12;
 	- Declaratives = { IRPYRawContainer 
 		- size = 2;
@@ -154,7 +154,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			}
 			- _name = "StandardPanel";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "11.16.2013::14:17:44";
+			- _lastModifiedTime = "11.16.2013::16:54:7";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID d232d45c-18cc-4d89-96cf-810b7feb1c6a;
 				- m_type = 0;
@@ -178,7 +178,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				}
 				- m_drawBehavior = 0;
 				- m_bIsPreferencesInitialized = 0;
-				- elementList = 11;
+				- elementList = 12;
 				{ CGIBox 
 					- _id = GUID e247a3a5-fb82-4643-b712-d4e2f9cbd419;
 					- m_type = 215;
@@ -435,128 +435,6 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					- m_text = "Doors Open
 ";
 				}
-				{ CGIMFCCtrl 
-					- _id = GUID 5e7a6446-0acd-4a46-8a94-f9a718753c96;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "PanelDiagram";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "PushButton";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "ButtonFont";
-												- _Value = "Arial 10 NoBold NoItalic";
-												- _Type = String;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 227;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "";
-					}
-					- m_pParent = GUID e247a3a5-fb82-4643-b712-d4e2f9cbd419;
-					- m_name = { CGIText 
-						- m_str = "pushbutton_0";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 0.000971062 0 0 0.00043576 213 209 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-					- Compartments = { IRPYRawContainer 
-						- size = 0;
-					}
-					- m_csModelObjPath = "";
-					- m_csName = "pushbutton_0";
-					- m_PartsArray = { IRPYRawContainer 
-						- size = 0;
-					}
-					- m_csButtonCaption = "Bring Here";
-				}
-				{ CGIMFCCtrl 
-					- _id = GUID 676827d4-a4b1-4a4a-8256-7b21dc707a0a;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "PanelDiagram";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "PushButton";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "ButtonFont";
-												- _Value = "Arial 10 NoBold NoItalic";
-												- _Type = String;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 227;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "";
-					}
-					- m_pParent = GUID e247a3a5-fb82-4643-b712-d4e2f9cbd419;
-					- m_name = { CGIText 
-						- m_str = "pushbutton_1";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 0.000971062 0 0 0.00043576 424 208 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-					- Compartments = { IRPYRawContainer 
-						- size = 0;
-					}
-					- m_csModelObjPath = "";
-					- m_csName = "pushbutton_1";
-					- m_PartsArray = { IRPYRawContainer 
-						- size = 0;
-					}
-					- m_csButtonCaption = "Stop";
-				}
 				{ CGIButtonArray 
 					- _id = GUID b1d953fa-cc1a-4397-9994-a7e790569b95;
 					- _properties = { IPropertyContainer 
@@ -777,6 +655,189 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					- m_points = 4 377 40  426 40  426 62  377 62  ;
 					- m_text = "Standard Panel";
 				}
+				{ CGIMFCCtrl 
+					- _id = GUID 7229660a-60f2-4de4-87d2-c08cc5934f3f;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "PanelDiagram";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "PushButton";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ButtonFont";
+												- _Value = "Arial 10 NoBold NoItalic";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 227;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "";
+					}
+					- m_pParent = GUID e247a3a5-fb82-4643-b712-d4e2f9cbd419;
+					- m_name = { CGIText 
+						- m_str = "pushbutton_0";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 0.000971062 0 0 0.00043576 194 206 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "";
+					- m_csName = "pushbutton_0";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csButtonCaption = "Bring Here";
+				}
+				{ CGIMFCCtrl 
+					- _id = GUID 40687cce-6be9-4b1e-9bc7-305cb3ed013a;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "PanelDiagram";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "PushButton";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ButtonFont";
+												- _Value = "Arial 10 NoBold NoItalic";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 227;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "";
+					}
+					- m_pParent = GUID e247a3a5-fb82-4643-b712-d4e2f9cbd419;
+					- m_name = { CGIText 
+						- m_str = "pushbutton_1";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 0.000971062 0 0 0.00043576 324 206 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "";
+					- m_csName = "pushbutton_1";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csButtonCaption = "Stop";
+				}
+				{ CGIMFCCtrl 
+					- _id = GUID 4856b89b-7d84-4993-9a7c-96c44cba49df;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "PanelDiagram";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "PushButton";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ButtonFont";
+												- _Value = "Arial 10 NoBold NoItalic";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 227;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "";
+					}
+					- m_pParent = GUID e247a3a5-fb82-4643-b712-d4e2f9cbd419;
+					- m_name = { CGIText 
+						- m_str = "pushbutton_0";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 0.000971062 0 0 0.00043576 455 207 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "";
+					- m_csName = "pushbutton_0";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csButtonCaption = "Ready";
+				}
 				
 				- m_access = 'Z';
 				- m_modified = 'N';
@@ -941,7 +1002,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			}
 			- _name = "BasePanel";
 			- _modifiedTimeWeak = 1.2.1990::0:0:0;
-			- _lastModifiedTime = "11.16.2013::14:19:55";
+			- _lastModifiedTime = "11.16.2013::16:53:24";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 3bee35b4-13f8-41d9-a85f-200ba0ddf5b3;
 				- m_type = 0;
@@ -965,7 +1026,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				}
 				- m_drawBehavior = 0;
 				- m_bIsPreferencesInitialized = 0;
-				- elementList = 13;
+				- elementList = 14;
 				{ CGIBox 
 					- _id = GUID 8f9b7ef5-9377-4982-a94d-fd9e82971b9f;
 					- m_type = 215;
@@ -1268,7 +1329,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000971062 0 0 0.00043576 352 257 ;
+					- m_transform = 0.000971062 0 0 0.00043576 338 257 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -1329,7 +1390,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000971062 0 0 0.00043576 563 256 ;
+					- m_transform = 0.000971062 0 0 0.00043576 464 257 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -1686,6 +1747,67 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					}
 					- m_csButtonCaption = "Emergency Ready";
 				}
+				{ CGIMFCCtrl 
+					- _id = GUID 499956b0-bea3-4e80-9ad3-b407101d4a23;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "PanelDiagram";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "PushButton";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ButtonFont";
+												- _Value = "Arial 10 NoBold NoItalic";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 227;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "";
+					}
+					- m_pParent = GUID 8f9b7ef5-9377-4982-a94d-fd9e82971b9f;
+					- m_name = { CGIText 
+						- m_str = "pushbutton_0";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 0.000971062 0 0 0.00043576 599 256 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "";
+					- m_csName = "pushbutton_0";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csButtonCaption = "Ready";
+				}
 				
 				- m_access = 'Z';
 				- m_modified = 'N';
@@ -1705,7 +1827,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			}
 		}
 	}
-	- weakCGTime = 11.16.2013::15:10:34;
+	- weakCGTime = 11.16.2013::16:52:57;
 	- strongCGTime = 1.2.1990::0:0:0;
 	- _defaultComposite = GUID 3ef28997-457c-4341-aefa-5f4c2e0eca8c;
 	- _eventsBaseID = 18616;
@@ -1716,8 +1838,8 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 3ef28997-457c-4341-aefa-5f4c2e0eca8c;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 11.16.2013::14:19:55;
-			- weakCGTime = 11.16.2013::14:19:55;
+			- _modifiedTimeWeak = 11.16.2013::15:10:34;
+			- weakCGTime = 11.16.2013::15:10:34;
 			- strongCGTime = 1.2.1990::0:0:0;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
@@ -1739,7 +1861,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				{ IReception 
 					- _id = GUID 4190be3b-d0a4-46f2-8877-0e3a273cf7d5;
 					- _myState = 8192;
-					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _modifiedTimeWeak = 11.16.2013::15:10:34;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
 						- size = 0;
@@ -1756,7 +1878,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				{ IReception 
 					- _id = GUID 55520e94-0aa7-495a-a782-0620cd41541c;
 					- _myState = 8192;
-					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _modifiedTimeWeak = 11.16.2013::15:10:34;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
 						- size = 0;
@@ -1773,7 +1895,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				{ IReception 
 					- _id = GUID 88cf000e-a1f6-4854-abd4-ccefa4823241;
 					- _myState = 8192;
-					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _modifiedTimeWeak = 11.16.2013::15:10:34;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
 						- size = 0;
@@ -1790,7 +1912,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				{ IReception 
 					- _id = GUID 789e27f4-3051-4801-a248-0920703329a9;
 					- _myState = 8192;
-					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _modifiedTimeWeak = 11.16.2013::15:10:34;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
 						- size = 0;
@@ -1807,7 +1929,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				{ IReception 
 					- _id = GUID 21b568f3-fc94-46a7-abdb-2640dec130f7;
 					- _myState = 8192;
-					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _modifiedTimeWeak = 11.16.2013::15:10:34;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
 						- size = 0;
@@ -1824,7 +1946,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				{ IReception 
 					- _id = GUID eb9175d0-f478-4679-a490-5c035343cf5b;
 					- _myState = 8192;
-					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _modifiedTimeWeak = 11.16.2013::15:10:34;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
 						- size = 0;
@@ -1841,7 +1963,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				{ IReception 
 					- _id = GUID d85f3c8b-48d8-43ee-af2f-1343c35d307f;
 					- _myState = 8192;
-					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _modifiedTimeWeak = 11.16.2013::15:10:34;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
 						- size = 0;
@@ -1854,7 +1976,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				{ IReception 
 					- _id = GUID 3d625b9e-296c-45d9-b9c4-163fe26796e6;
 					- _myState = 8192;
-					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _modifiedTimeWeak = 11.16.2013::15:10:34;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
 						- size = 0;
@@ -1871,7 +1993,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				{ IReception 
 					- _id = GUID bff5c9f3-2cee-4c40-9f67-ac442fe45778;
 					- _myState = 8192;
-					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _modifiedTimeWeak = 11.16.2013::15:10:34;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
 						- size = 0;
@@ -1888,7 +2010,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				{ IReception 
 					- _id = GUID 0455ec51-c5b3-4440-a1b2-d9338d80a92b;
 					- _myState = 8192;
-					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _modifiedTimeWeak = 11.16.2013::15:10:34;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
 						- size = 0;
@@ -1901,7 +2023,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				{ IReception 
 					- _id = GUID aae411f5-7c69-4134-8f87-25c969486bb4;
 					- _myState = 8192;
-					- _modifiedTimeWeak = 1.1.1970::1:0:0;
+					- _modifiedTimeWeak = 11.16.2013::15:10:34;
 					- _virtual = 0;
 					- Args = { IRPYRawContainer 
 						- size = 0;
@@ -1940,7 +2062,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 							- _modifiedTimeWeak = 11.16.2013::15:6:46;
 							- _itsLabel = { ILabel 
 								- _id = GUID 0be8f7f6-e471-4c76-b39b-8d3e4c01f0b6;
-								- _modifiedTimeWeak = 1.1.1970::1:0:0;
+								- _modifiedTimeWeak = 1.2.1990::0:0:0;
 								- _itsTrigger = NULL;
 								- _itsGuard = NULL;
 								- _itsAction = NULL;
@@ -1960,7 +2082,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 								- _modifiedTimeWeak = 11.16.2013::15:1:55;
 								- _itsTrigger = { IInterfaceItemTrigger 
 									- _id = GUID 2c6ccdc9-16b9-4ecd-a207-9eec7129b16c;
-									- _modifiedTimeWeak = 1.1.1970::1:0:0;
+									- _modifiedTimeWeak = 1.2.1990::0:0:0;
 									- _body = "emergencyBring";
 									- _info = "";
 									- _itsInterfaceItem = { IHandle 
@@ -1989,7 +2111,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 								- _modifiedTimeWeak = 11.16.2013::15:2:40;
 								- _itsTrigger = { IInterfaceItemTrigger 
 									- _id = GUID 11353826-6028-4802-9a86-f0e071a83fc9;
-									- _modifiedTimeWeak = 1.1.1970::1:0:0;
+									- _modifiedTimeWeak = 1.2.1990::0:0:0;
 									- _body = "baseLevelReached";
 									- _info = "";
 									- _itsInterfaceItem = { IHandle 
@@ -2018,7 +2140,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 								- _modifiedTimeWeak = 11.16.2013::15:3:1;
 								- _itsTrigger = { IInterfaceItemTrigger 
 									- _id = GUID 745669f3-cbdc-4b7d-a70c-6126a27414f6;
-									- _modifiedTimeWeak = 1.1.1970::1:0:0;
+									- _modifiedTimeWeak = 1.2.1990::0:0:0;
 									- _body = "emergencyEnd";
 									- _info = "";
 									- _itsInterfaceItem = { IHandle 
@@ -2047,7 +2169,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 								- _modifiedTimeWeak = 11.16.2013::15:3:19;
 								- _itsTrigger = { IInterfaceItemTrigger 
 									- _id = GUID f8716ef1-329a-45f4-af99-0debfcbbb88c;
-									- _modifiedTimeWeak = 1.1.1970::1:0:0;
+									- _modifiedTimeWeak = 1.2.1990::0:0:0;
 									- _body = "emergencyEnd";
 									- _info = "";
 									- _itsInterfaceItem = { IHandle 
@@ -2076,7 +2198,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 								- _modifiedTimeWeak = 11.16.2013::15:7:5;
 								- _itsTrigger = { IInterfaceItemTrigger 
 									- _id = GUID d1e9a727-fb1f-4c1a-9f5b-409d7b8b3adb;
-									- _modifiedTimeWeak = 1.1.1970::1:0:0;
+									- _modifiedTimeWeak = 1.2.1990::0:0:0;
 									- _body = "onLevelReached";
 									- _info = "";
 									- _itsInterfaceItem = { IHandle 
@@ -2105,7 +2227,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 								- _modifiedTimeWeak = 11.16.2013::15:7:24;
 								- _itsTrigger = { IInterfaceItemTrigger 
 									- _id = GUID 658da74b-1bfc-4f92-93eb-8976251e7c9d;
-									- _modifiedTimeWeak = 1.1.1970::1:0:0;
+									- _modifiedTimeWeak = 1.2.1990::0:0:0;
 									- _body = "finish";
 									- _info = "";
 									- _itsInterfaceItem = { IHandle 
@@ -2134,7 +2256,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 								- _modifiedTimeWeak = 11.16.2013::15:7:47;
 								- _itsTrigger = { IInterfaceItemTrigger 
 									- _id = GUID dfb674fe-92cb-49d6-9d57-638b857adb60;
-									- _modifiedTimeWeak = 1.1.1970::1:0:0;
+									- _modifiedTimeWeak = 1.2.1990::0:0:0;
 									- _body = "onButtonPressed";
 									- _info = "";
 									- _itsInterfaceItem = { IHandle 
@@ -2163,7 +2285,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 								- _modifiedTimeWeak = 11.16.2013::15:8:20;
 								- _itsTrigger = { IInterfaceItemTrigger 
 									- _id = GUID cea84539-91e5-498e-aed1-1ae4964cfc88;
-									- _modifiedTimeWeak = 1.1.1970::1:0:0;
+									- _modifiedTimeWeak = 1.2.1990::0:0:0;
 									- _body = "onButtonPressed";
 									- _info = "";
 									- _itsInterfaceItem = { IHandle 
@@ -2192,7 +2314,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 								- _modifiedTimeWeak = 11.16.2013::15:8:57;
 								- _itsTrigger = { IInterfaceItemTrigger 
 									- _id = GUID 1cfb5a19-86c1-4420-b5ea-59f2593f1b80;
-									- _modifiedTimeWeak = 1.1.1970::1:0:0;
+									- _modifiedTimeWeak = 1.2.1990::0:0:0;
 									- _body = "openDoors";
 									- _info = "";
 									- _itsInterfaceItem = { IHandle 
@@ -2221,7 +2343,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 								- _modifiedTimeWeak = 11.16.2013::15:9:10;
 								- _itsTrigger = { IInterfaceItemTrigger 
 									- _id = GUID 8216f6c8-9bf4-4eb2-923e-2aa7292f9e7d;
-									- _modifiedTimeWeak = 1.1.1970::1:0:0;
+									- _modifiedTimeWeak = 1.2.1990::0:0:0;
 									- _body = "openDoors";
 									- _info = "";
 									- _itsInterfaceItem = { IHandle 
@@ -2250,7 +2372,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 								- _modifiedTimeWeak = 11.16.2013::15:9:33;
 								- _itsTrigger = { IInterfaceItemTrigger 
 									- _id = GUID 03b4cbba-fe4d-46f8-b8a8-0d0f624ac9b7;
-									- _modifiedTimeWeak = 1.1.1970::1:0:0;
+									- _modifiedTimeWeak = 1.2.1990::0:0:0;
 									- _body = "closeDoors";
 									- _info = "";
 									- _itsInterfaceItem = { IHandle 
@@ -2279,7 +2401,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 								- _modifiedTimeWeak = 11.16.2013::15:9:47;
 								- _itsTrigger = { IInterfaceItemTrigger 
 									- _id = GUID 8c78ee02-8b38-4c83-8879-82e7768d0324;
-									- _modifiedTimeWeak = 1.1.1970::1:0:0;
+									- _modifiedTimeWeak = 1.2.1990::0:0:0;
 									- _body = "weightOK";
 									- _info = "";
 									- _itsInterfaceItem = { IHandle 
@@ -2304,7 +2426,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 								- _modifiedTimeWeak = 11.16.2013::15:10:34;
 								- _itsTrigger = { IInterfaceItemTrigger 
 									- _id = GUID e0fcf81b-99cb-4cd6-89de-68af8012d348;
-									- _modifiedTimeWeak = 1.1.1970::1:0:0;
+									- _modifiedTimeWeak = 1.2.1990::0:0:0;
 									- _body = "overweight";
 									- _info = "";
 									- _itsInterfaceItem = { IHandle 
@@ -4268,7 +4390,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 516b198d-4d55-4a53-91d0-a2ac91bdf021;
 			- _myState = 8192;
 			- _name = "doorsOpen";
-			- _modifiedTimeWeak = 1.1.1970::1:0:0;
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -4278,7 +4400,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 215fc9bc-d70e-4f2e-bafa-cc9729d2c0e6;
 			- _myState = 8192;
 			- _name = "weightOK";
-			- _modifiedTimeWeak = 1.1.1970::1:0:0;
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
@@ -4288,7 +4410,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 3a20a9d0-fa6f-49b0-b257-a0037630b46f;
 			- _myState = 8192;
 			- _name = "overweight";
-			- _modifiedTimeWeak = 1.1.1970::1:0:0;
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
 			- _virtual = 0;
 			- Args = { IRPYRawContainer 
 				- size = 0;
