@@ -1,0 +1,6 @@
+*.class
+*.log
+
+Elevator/animator/DefaultConfig/*
+Elevator/exe/DefaultConfig/*
+Elevator/Elevator_auto_rpy

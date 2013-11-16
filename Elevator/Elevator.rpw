@@ -1,0 +1,92 @@
+I-Logix-RPY-Archive version 8.8.0 * 6107223
+{ CGEMdiWorkspace 
+	- stubList = { IRPYRawContainer 
+		- size = 5;
+		- value = GUID 3b75956f-f2d2-4ee0-b54e-32b7891132aa; GUID 8d3592d4-30e4-4723-9947-9c46c2a3bc85; GUID 2f79df25-5e16-4a5a-876b-4528cded0c3d; GUID 1a373eb2-7fe0-464e-80c5-32bbc6b2649c; GUID 74a6daed-8619-4275-8f6b-7d1d1d0220b1; 
+	}
+	- isLoadOnDemand = 0;
+	- myViewsWithID = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -9;
+				- m_ptMaxPositionY = -38;
+				- m_nLeft = 128;
+				- m_nTop = 128;
+				- m_nRight = 1037;
+				- m_nBottom = 481;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStateChartDiagram";
+				- _filename = "Default.sbs";
+				- _subsystem = "Default";
+				- _class = "Elevator";
+				- _name = "StatechartDiagram";
+				- _id = GUID bc6ddedb-5c13-4afb-82b4-682c884a4f66;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 879 488 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 1;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -9;
+				- m_ptMaxPositionY = -38;
+				- m_nLeft = 160;
+				- m_nTop = 160;
+				- m_nRight = 1218;
+				- m_nBottom = 590;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStateChartDiagram";
+				- _filename = "Default.sbs";
+				- _subsystem = "Default";
+				- _class = "Elevator";
+				- _name = "StatechartDiagram";
+				- _id = GUID bc6ddedb-5c13-4afb-82b4-682c884a4f66;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 1414 499 ;
+			- _instanceName = "Elevator[0]";
+			- m_nDiagramIndex = 0;
+		}
+	}
+	- _fullName = "D:\\projects\\scr\\Elevator\\Elevator";
+	- m_SearchScopeList = { IRPYRawContainer 
+		- size = 0;
+	}
+	- bUsingCustomBrowserView = 0;
+	- bUsingQueries = 0;
+	- bApplyOnDiagrams = 0;
+	- liQueryIDs = { IRPYRawContainer 
+		- size = 0;
+	}
+	- liElementTypes = { IRPYRawContainer 
+		- size = 0;
+	}
+
+	- m_favoritesTree = {
+		count=1;
+		{ - favoritesItem
+			generation = 0;
+			name = Favorites;
+			idOrFolder = folder;
+		}
+	}
+
+}
+
