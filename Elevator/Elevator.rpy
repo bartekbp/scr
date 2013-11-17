@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID 0c8283b7-8ceb-4ff1-b6c8-24b29e07e251;
 	- _myState = 8192;
 	- _name = "Elevator";
-	- _modifiedTimeWeak = 11.16.2013::13:47:38;
+	- _modifiedTimeWeak = 11.17.2013::14:54:1;
 	- _lastID = 1;
 	- _UserColors = { IRPYRawContainer 
 		- size = 16;
@@ -26,11 +26,11 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		- _id = GUID a20b32e6-7af9-4318-b013-27301c21bdda;
 	}
 	- Multiplicities = { IRPYRawContainer 
-		- size = 4;
+		- size = 5;
 		- value = 
 		{ IMultiplicityItem 
 			- _name = "1";
-			- _count = 0;
+			- _count = 8;
 		}
 		{ IMultiplicityItem 
 			- _name = "*";
@@ -43,6 +43,10 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		{ IMultiplicityItem 
 			- _name = "1..*";
 			- _count = -1;
+		}
+		{ IMultiplicityItem 
+			- _name = "4";
+			- _count = 0;
 		}
 	}
 	- Subsystems = { IRPYRawContainer 
@@ -80,6 +84,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 		}
 	}
 	- Diagrams = { IRPYRawContainer 
+		- size = 0;
+	}
+	- MSCS = { IRPYRawContainer 
 		- size = 0;
 	}
 	- Components = { IRPYRawContainer 

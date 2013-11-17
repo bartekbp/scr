@@ -12,14 +12,14 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- m_nLength = 44;
 				- m_nFlags = 0;
 				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -9;
-				- m_ptMaxPositionY = -38;
-				- m_nLeft = 110;
-				- m_nTop = 58;
-				- m_nRight = 1132;
-				- m_nBottom = 506;
+				- m_ptMinPositionX = 0;
+				- m_ptMinPositionY = 582;
+				- m_ptMaxPositionX = -1;
+				- m_ptMaxPositionY = -1;
+				- m_nLeft = -2;
+				- m_nTop = -1;
+				- m_nRight = 434;
+				- m_nBottom = 434;
 			}
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
@@ -30,10 +30,10 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- _name = "BasePanel";
 				- _id = GUID f479aada-9f2e-40c5-a02e-4c8c07d36804;
 			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 1008 387 ;
+			- _UpLeft = 280 36 ;
+			- _DownRight = 804 520 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 2;
+			- m_nDiagramIndex = 1;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -42,12 +42,12 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- m_showCmd = 1;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -9;
-				- m_ptMaxPositionY = -38;
-				- m_nLeft = 78;
-				- m_nTop = 78;
-				- m_nRight = 839;
-				- m_nBottom = 446;
+				- m_ptMaxPositionX = -1;
+				- m_ptMaxPositionY = -1;
+				- m_nLeft = 440;
+				- m_nTop = 354;
+				- m_nRight = 1106;
+				- m_nBottom = 708;
 			}
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
@@ -58,24 +58,24 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- _name = "StatechartDiagram";
 				- _id = GUID bc6ddedb-5c13-4afb-82b4-682c884a4f66;
 			}
-			- _UpLeft = 0 43 ;
-			- _DownRight = 1002 456 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 1;
+			- _UpLeft = 0 175 ;
+			- _DownRight = 1246 739 ;
+			- _instanceName = "Elevator[0]";
+			- m_nDiagramIndex = 0;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
-				- m_nFlags = 2;
-				- m_showCmd = 3;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -9;
-				- m_ptMaxPositionY = -38;
-				- m_nLeft = 0;
-				- m_nTop = 0;
-				- m_nRight = 761;
-				- m_nBottom = 368;
+				- m_ptMaxPositionX = -1;
+				- m_ptMaxPositionY = -1;
+				- m_nLeft = 426;
+				- m_nTop = -1;
+				- m_nRight = 1566;
+				- m_nBottom = 372;
 			}
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
@@ -86,10 +86,10 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- _name = "StandardPanel";
 				- _id = GUID 86e19760-c8d3-4b78-aefd-d9bd4a88f966;
 			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 1274 653 ;
+			- _UpLeft = 0 30 ;
+			- _DownRight = 1462 431 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 0;
+			- m_nDiagramIndex = 2;
 		}
 	}
 	- _fullName = "D:\\projects\\scr\\Elevator\\Elevator";

@@ -1,3 +1,4 @@
 [Op Calls]
 [Events]
+Elevator[0]->GEN(EmergencyReady())`Elevator
 [Breakpoints]
