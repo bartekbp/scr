@@ -1,4 +1,7 @@
 [Op Calls]
 [Events]
+Elevator[0]->dc->GEN(DoorsOpened(0,true))`DoorsController
+Elevator[0]->dc->GEN(DoorsOpened(0,false))`DoorsController
+Elevator[0]->dc->GEN(DoorsOpened(1,true))`DoorsController
 Elevator[0]->GEN(EmergencyReady())`Elevator
 [Breakpoints]
