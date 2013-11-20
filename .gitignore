@@ -7,7 +7,9 @@
 Elevator/animator/DefaultConfig/*
 Elevator/exe/DefaultConfig/*
 Elevator/Elevator_auto_rpy
-Elevator-docs
+Elevator-docs/elevator.aux
+Elevator-docs/elevator.log
+Elevator-docs/elevator.synctex.gz
 
 Elevator-gui/nbproject/private/
 Elevator-gui/build/
