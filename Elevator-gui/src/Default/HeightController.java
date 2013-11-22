@@ -41,16 +41,19 @@ public class HeightController implements RiJStateConcept {
     
     //#[ ignore 
     public static final int RiJNonState=0;
-    public static final int SendEvent=1;
-    public static final int sendaction_6=2;
-    public static final int sendaction_5=3;
-    public static final int MovingDecision=4;
-    public static final int Init=5;
-    public static final int BeforeWaitingForEvent=6;
+    public static final int state_14=1;
+    public static final int SendEvent=2;
+    public static final int sendaction_6=3;
+    public static final int sendaction_5=4;
+    public static final int MovingDecision=5;
+    public static final int Init=6;
+    public static final int BeforeWaitingForEvent=7;
     //#]
     protected int rootState_subState;		//## ignore 
     
     protected int rootState_active;		//## ignore 
+    
+    protected int state_14_subState;		//## ignore 
     
     
     //## statechart_method 
@@ -240,6 +243,10 @@ public class HeightController implements RiJStateConcept {
         
         //## statechart_method 
         public boolean isIn(int state) {
+            if(state_14_subState == state)
+                {
+                    return true;
+                }
             if(rootState_subState == state)
                 {
                     return true;
@@ -264,19 +271,14 @@ public class HeightController implements RiJStateConcept {
         public int rootState_dispatchEvent(short id) {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             switch (rootState_active) {
-                case Init:
-                {
-                    res = Init_takeEvent(id);
-                }
-                break;
                 case MovingDecision:
                 {
                     res = MovingDecision_takeEvent(id);
                 }
                 break;
-                case sendaction_5:
+                case BeforeWaitingForEvent:
                 {
-                    res = sendaction_5_takeEvent(id);
+                    res = BeforeWaitingForEvent_takeEvent(id);
                 }
                 break;
                 case sendaction_6:
@@ -284,9 +286,14 @@ public class HeightController implements RiJStateConcept {
                     res = sendaction_6_takeEvent(id);
                 }
                 break;
-                case BeforeWaitingForEvent:
+                case Init:
                 {
-                    res = BeforeWaitingForEvent_takeEvent(id);
+                    res = Init_takeEvent(id);
+                }
+                break;
+                case sendaction_5:
+                {
+                    res = sendaction_5_takeEvent(id);
                 }
                 break;
                 case SendEvent:
@@ -304,6 +311,7 @@ public class HeightController implements RiJStateConcept {
         protected void initStatechart() {
             rootState_subState = RiJNonState;
             rootState_active = RiJNonState;
+            state_14_subState = RiJNonState;
         }
         
         //## statechart_method 
@@ -322,7 +330,7 @@ public class HeightController implements RiJStateConcept {
         
         //## statechart_method 
         public void BeforeWaitingForEvent_enter() {
-            rootState_subState = BeforeWaitingForEvent;
+            state_14_subState = BeforeWaitingForEvent;
             rootState_active = BeforeWaitingForEvent;
             BeforeWaitingForEventEnter();
         }
@@ -352,6 +360,10 @@ public class HeightController implements RiJStateConcept {
                     res = sendaction_5TakeNull();
                 }
             
+            if(res == RiJStateReactive.TAKE_EVENT_NOT_CONSUMED)
+                {
+                    res = state_14_takeEvent(id);
+                }
             return res;
         }
         
@@ -362,13 +374,29 @@ public class HeightController implements RiJStateConcept {
         //## statechart_method 
         public void MovingDecision_enter() {
             pushNullConfig();
-            rootState_subState = MovingDecision;
+            state_14_subState = MovingDecision;
             rootState_active = MovingDecision;
             MovingDecisionEnter();
         }
         
         //## statechart_method 
         public void sendaction_5Exit() {
+        }
+        
+        //## statechart_method 
+        public int state_14TakeStop() {
+            int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
+            state_14_exit();
+            state_14_enter();
+            Init_entDef();
+            res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+            return res;
+        }
+        
+        //## statechart_method 
+        public void state_14_enter() {
+            rootState_subState = state_14;
+            state_14Enter();
         }
         
         //## statechart_method 
@@ -425,7 +453,15 @@ public class HeightController implements RiJStateConcept {
                     res = SendEventTakeMoveControllerE();
                 }
             
+            if(res == RiJStateReactive.TAKE_EVENT_NOT_CONSUMED)
+                {
+                    res = state_14_takeEvent(id);
+                }
             return res;
+        }
+        
+        //## statechart_method 
+        public void state_14Enter() {
         }
         
         //## statechart_method 
@@ -437,24 +473,42 @@ public class HeightController implements RiJStateConcept {
         //## statechart_method 
         public void sendaction_5_enter() {
             pushNullConfig();
-            rootState_subState = sendaction_5;
+            state_14_subState = sendaction_5;
             rootState_active = sendaction_5;
             sendaction_5Enter();
         }
         
         //## statechart_method 
         public void SendEventEnter() {
-            //#[ state ROOT.SendEvent.(Entry) 
+            //#[ state ROOT.state_14.SendEvent.(Entry) 
             el.gen(new LevelController());
             //#]
         }
         
         //## statechart_method 
+        public void state_14_entDef() {
+            state_14_enter();
+            
+            Init_entDef();
+        }
+        
+        //## statechart_method 
         public void sendaction_6_enter() {
             pushNullConfig();
-            rootState_subState = sendaction_6;
+            state_14_subState = sendaction_6;
             rootState_active = sendaction_6;
             sendaction_6Enter();
+        }
+        
+        //## statechart_method 
+        public int state_14_takeEvent(short id) {
+            int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
+            if(event.isTypeOf(Stop.Stop_Default_id))
+                {
+                    res = state_14TakeStop();
+                }
+            
+            return res;
         }
         
         //## statechart_method 
@@ -478,12 +532,60 @@ public class HeightController implements RiJStateConcept {
                     res = MovingDecisionTakeNull();
                 }
             
+            if(res == RiJStateReactive.TAKE_EVENT_NOT_CONSUMED)
+                {
+                    res = state_14_takeEvent(id);
+                }
             return res;
+        }
+        
+        //## statechart_method 
+        public void state_14_exit() {
+            switch (state_14_subState) {
+                case MovingDecision:
+                {
+                    MovingDecision_exit();
+                }
+                break;
+                case BeforeWaitingForEvent:
+                {
+                    BeforeWaitingForEvent_exit();
+                }
+                break;
+                case sendaction_6:
+                {
+                    sendaction_6_exit();
+                }
+                break;
+                case Init:
+                {
+                    Init_exit();
+                }
+                break;
+                case sendaction_5:
+                {
+                    sendaction_5_exit();
+                }
+                break;
+                case SendEvent:
+                {
+                    SendEvent_exit();
+                }
+                break;
+                default:
+                    break;
+            }
+            state_14_subState = RiJNonState;
+            state_14Exit();
         }
         
         //## statechart_method 
         public void SendEvent_exit() {
             SendEventExit();
+        }
+        
+        //## statechart_method 
+        public void state_14Exit() {
         }
         
         //## statechart_method 
@@ -500,26 +602,26 @@ public class HeightController implements RiJStateConcept {
         
         //## statechart_method 
         public void sendaction_6Enter() {
-            //#[ state ROOT.sendaction_6.(Entry) 
+            //#[ state ROOT.state_14.sendaction_6.(Entry) 
             en.gen(new Default.Up());
             //#]
         }
         
         //## statechart_method 
         public void rootStateEntDef() {
-            Init_entDef();
+            state_14_entDef();
         }
         
         //## statechart_method 
         public void sendaction_5Enter() {
-            //#[ state ROOT.sendaction_5.(Entry) 
+            //#[ state ROOT.state_14.sendaction_5.(Entry) 
             en.gen(new Default.Down());
             //#]
         }
         
         //## statechart_method 
         public void SendEvent_enter() {
-            rootState_subState = SendEvent;
+            state_14_subState = SendEvent;
             rootState_active = SendEvent;
             SendEventEnter();
         }
@@ -536,6 +638,10 @@ public class HeightController implements RiJStateConcept {
                     res = BeforeWaitingForEventTakeUp();
                 }
             
+            if(res == RiJStateReactive.TAKE_EVENT_NOT_CONSUMED)
+                {
+                    res = state_14_takeEvent(id);
+                }
             return res;
         }
         
@@ -557,7 +663,7 @@ public class HeightController implements RiJStateConcept {
         
         //## statechart_method 
         public void MovingDecisionEnter() {
-            //#[ state ROOT.MovingDecision.(Entry) 
+            //#[ state ROOT.state_14.MovingDecision.(Entry) 
             if(el.effectors != null) {
             	el.effectors.setPosition(level);
             }
@@ -566,7 +672,7 @@ public class HeightController implements RiJStateConcept {
         
         //## statechart_method 
         public void Init_enter() {
-            rootState_subState = Init;
+            state_14_subState = Init;
             rootState_active = Init;
             InitEnter();
         }
@@ -579,6 +685,10 @@ public class HeightController implements RiJStateConcept {
                     res = sendaction_6TakeNull();
                 }
             
+            if(res == RiJStateReactive.TAKE_EVENT_NOT_CONSUMED)
+                {
+                    res = state_14_takeEvent(id);
+                }
             return res;
         }
         
@@ -612,7 +722,7 @@ public class HeightController implements RiJStateConcept {
             else
                 {
                     //## transition 3 
-                    if(el.moving && desiredLevel < level)
+                    if(desiredLevel < level)
                         {
                             MovingDecision_exit();
                             sendaction_5_entDef();
@@ -621,7 +731,7 @@ public class HeightController implements RiJStateConcept {
                     else
                         {
                             //## transition 4 
-                            if(el.moving && desiredLevel > level)
+                            if(desiredLevel > level)
                                 {
                                     MovingDecision_exit();
                                     sendaction_6_entDef();
@@ -660,6 +770,10 @@ public class HeightController implements RiJStateConcept {
                     res = InitTakeMoveControllerE();
                 }
             
+            if(res == RiJStateReactive.TAKE_EVENT_NOT_CONSUMED)
+                {
+                    res = state_14_takeEvent(id);
+                }
             return res;
         }
         

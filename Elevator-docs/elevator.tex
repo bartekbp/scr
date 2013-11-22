@@ -46,7 +46,7 @@
 
 \section{Przedstawienie problemu}
 
-    Winda towarowa to urządzenie używane w przemyśle. 
+    Winda towarowa to urządzenie stosowane w przemyśle. 
     Jest szeroko stosowana w kopalniach, halach produkcyjnych czy restauracjach.
     Zastosowanie jest proste: Na jednym z pięter pracownik
     przywołuje windę, ładuje towar, a następnie wysyła windę na inne piętro, gdzie ktoś inny odbiera towar.
@@ -78,95 +78,125 @@
 	\includegraphics{images/useCase.png}    	
 	\textbf{Scenariusze} \\
 	\begin{itemize}
-		\item Wezwij windę - scenariusz podstawowy
+		\item Wezwij windę
 		\begin{itemize}
-			\item warunek wstępny - winda jest na innym piętrze niż użytkownik oraz została oznaczona jako rozładowana,
-			\item użytkownik wciska przycisk \textbf{bring here},
-			\item winda podjeżdża na odpowiednie piętro.
+			\item warunek wstępny - winda nie jest w stanie emergency
+			\item warunek końcowy - winda znajduje się na piętrze wzywającego
+			\item przebieg główny:
+			\begin{itemize}
+				\item użytkownik wciska przycisk \textbf{bring here},
+				\item użytkownik czeka.
+			\end{itemize}
 		\end{itemize}
-		\item Wezwij windę - scenariusz alternatywny
+		\item Wyślij windę
 		\begin{itemize}
-			\item warunek wstępny - winda jest na innym piętrze niż użytkownik ale nie została oznaczona jako rozładowana,
-			\item użytkownik wciska przycisk \textbf{bring here},
-			\item winda czeka aż zostanie oznaczona jako rozładowana,
-			\item winda podjeżdża na odpowiednie piętro.
-		\end{itemize}
-		\item Wyślij windę - scenariusz podstawowy
-		\begin{itemize}
-			\item warunek wstępny - winda jest na tym samym piętrze co użytkownik,
-			\item użytkownik dokonuje załadunku windy,
-			\item użytkownik zamyka drzwiczki,
-			\item użytkownik wciska przycisk z odpowiednim numerem piętra,
-			\item winda odjeżdża na odpowiednie piętro.
-		\end{itemize}
-		\item Wyślij windę - scenariusz alternatywny			
-		\begin{itemize}
-			\item jeśli w trakcie załadunku przekroczona zostanie ładowność windy zapali się kontrolka ostrzegawcza
-			\textbf {overload} oraz ostanie odegrany dzwięk ostrzegawczy.
-			Winda nie zostanie wysłana.
-			Należy usunąć z windy część ładunku i ponownie posłać windę.
-			\item jeśli użytkownik nie zamknie drzwiczek zapali się kontrolka ostrzegawcza \textbf{doors open}
-			oraz zostanie odegrany dzwięk ostrzegawczy, winda nie zostanie wysłana.
-			Należy zamknąć drzwiczki i ponownie posłać windę.
+			\item warunek wstępny - winda jest na tym samym piętrze co użytkownik, nie jest przeciążona, a drzwiczki są zamknięte
+			\item warunek końcowy - winda znajduje się na piętre na które została wysłana
+			\item przebieg główny:
+			\begin{itemize}
+				\item użytkownik wciska przycisk z numerem piętra
+				\item użytkownik czeka.
+			\end{itemize}
 		\end{itemize}
 		\item Oznacz windę jako rozładowaną - scenariusz podstawowy
 		\begin{itemize}
-			\item warunek wstępny - winda jest na tym samym piętrze co użytkownik,
-			\item użytkownik rozładowuje windę,
-			\item użytkownik zamyka drzwiczki,
-			\item użytkownik wciska przycisk \textbf{ready},
-			\item winda zostaje oznaczona jako rozładowana.
+			\item warunek wstępny - winda jest na tym samym piętrze co użytkownik, nie jest przeciążona, a drzwiczki są zamknięte
+			\item warunek końcowy - winda może zostać wezwana przez kogoś innego
+			\item przebieg główny:
+			\begin{itemize}
+				\item użytkownik wciska przycisk \textbf{ready},
+			\end{itemize}
+	
 		\end{itemize}
-		\item Oznacz windę jako rozładowaną - scenariusz alternatywny \\
-			Sytuacje berzegowe oraz ich obsługa takie same jak w poprzednim scenariuszu
-		
+
 		\item Zatrzymaj 
 		\begin{itemize}
 			\item warunek wstępny - brak,
-			\item użtkownik wciska przycisk \textbf{stop},
-			\item winda natychmiast się zatrzymuje.
+			\item warunek końcowy - winda się zatrzymuje
+			\item przebieg główny:
+			\begin{itemize}
+				\item użtkownik wciska przycisk \textbf{stop},
+			\end{itemize}
 		\end{itemize}
 		
 		\item Wezwij awaryjnie
 		\begin{itemize}
-			\item warunek wstępny - wida została zatrzymana, lub bezpośrednio uruchomiona po awarii,
-			\item użytkonik wciska przycisk \textbf{Emergency Bring Here},
-			\item winda podjeżdża nawet jeśli jest przeciążona lub niezamknięta.
+			\item warunek wstępny - brak.
+			\item warunek końcowy: Winda znajduje się na parterze
+			\item przebieg główny:
+			\begin{itemize}			
+				\item użytkonik wciska przycisk \textbf{Emergency Bring Here},
+			\end{itemize}
 		\end{itemize}
 		
 		\item Wznów
 		\begin{itemize}
-			\item warunek wstępny - wida została zatrzymana, lub bezpośrednio uruchomiona po awarii,
-			\item użytkownik sprawdza stan windy,
-			\item użytkownik wciska przycisk \textbf{Emergency ready},
-			\item winda jest gotowa do użycia.
+			\item warunek wstępny - winda jest w stanie emergency,
+			\item warunek końcowy - winda oczekuje na wezwania
+			\item przebieg główny:
+			\begin{itemize}
+				\item użytkownik wciska przycisk \textbf{Emergency ready},
+			\end{itemize}
 		\end{itemize}
 		
 	\end{itemize}
     
 \section{Architektura}
 	Winda została zaprojektowan jako maszyna stanowa. \\	
-	Winda posiada kilka detectorów:
+	Winda posiada detektory:
 	\begin{itemize}
 		\item detektor stanu drzwiczek (otwarte/zamknięte)
 		\item detektor obciążenia windy
-		\item detektor wysokości na której znajduje się winda
 	\end{itemize}
-	a także efektorów:
+	a także efektor:
 	\begin{itemize}
 		\item silnik windy - przemieszczanie góra / dół
-		\item dzwonek - do powiadamiania o alarmach (przeciążenie / otwarte drzwiczki)
-		\item didy LED - informujące o alarmach (przeciążenie / otwarte drzwiczki)
 	\end{itemize}
-	Ponadto winda posiada dwa parametry
-	\begin{itemize}
-		\item tabela wysokości pięter
-		\item maksymalne dopuszczalne obciążenie
-	\end{itemize}
+
 	Uproszczony diagram stanów \\
 	\includegraphics{images/simplifiedStateChart.png}
 	
 \section{Interfejs graficzny}
+	\subsection{Interfejs wewnętrzy Rhapsody}
+	   
+	\begin{center} 
+    		\includegraphics{images/rGuiBase.PNG} \\Interfejs na parterze\\ 
+  	\end{center} 
+  	
+  	Wskazówka na górze pokazuje numer piętra. Na samym dole znajdują się diody informujące o tym czy drzwiczki są otwarte, oraz
+  	czy winda jest przeciążona. Jeśli chcemy zasymulować zmiane jednego z tych parametrów wystarczy kliknąć na przycisku change pod spodem.
+  	Środkowa część panelu to główny panel sterowniczy. Zawiera on przyciski  \textbf{Bring here} do wzywania windy, \textbf{Stop}
+  	do zatrzymania, \textbf{Ready} dozakończenia akcji. Cztery przyciski poniżej służą do wysyłania na odpowiednie piętro.
+  	 Natomiast przyciski emergecy służą do obsługi stanu emergency.
+    
+
+    		\includegraphics{images/rGuiStd.PNG} Interfejsy na pozostałych piętrach (interfejs 3 piętra nie widoczny)
+  	
+  	
+  	Panele na pozostałych piętrach są bardzo zbliżone. Nie posiadają jedynie przycisków \textbf{Emergency Bring Here, Emergency Ready}.
+  	
+  	
+  	\\
+  	\\
+  	Przykład urzycia windy.
+  	
+  	Po uruchomieniu winda jest w stanie \textbf{Emergency Stopped}. Aby móc ją używać należy wcisnąć przycisk \textbf{Emergency Ready}.
+  	Winda jest gotowa do użytku. Teraz można kolejkować dla niej zadania.
+  	Aby rozpocząć zadanie należy na dowolnym piętrze wcisnąć \textbf{Bring here}. Winda podjedzie na odpowiednie piętro.
+  	Tam można ją załadować. Następnie posyłamy windę na odpowiednie piętro, gdzie może być rozładowana. 
+  	Po rozładowaniu klikamy \textbf{Ready} i winda jest gotowa do przetworzenia następnego wezwania.
+
+    
+	\subsection{Interfejs zewnętrzny}
+	\begin{center} 
+    		\includegraphics{images/oGui.PNG} \\Interfejsy zewnętrzny\\ 
+  	\end{center} 
+  	
+  	Interfejs jest "odbiciem" tego z Rhapsody z tą różnicą że bardziej czytelnie prezentuje stan windy. Różni się także sposób otwierania 
+  	drzwiczek i przeciążania windy. W celu przeciążenia windy wystarczy kliknąć jej rysunek (kolor odwzorowuje stan). W celu otwarcia drzwi 
+  	wystarczy kliknąć na ich rysunek.
+
+	
 	
 	
 \section{Testy}
@@ -183,18 +213,15 @@
 	\subsection{Załadunek windy}
 		Warunek początkowy - winda jest poprawnie uruchomiona (przycisk Emergency Ready został już wciśnięty) - znajduje się na piętrze 0
 		\begin{enumerate}
+			\item Wciśnięcie bring here na parterze
 			\item Otwarcie drzwiczek,
 			\item Próba wysłania windy na następne piętro,
-			\item Winda nie powinna się poruszyć, powinna zapalić się lampka ostrzegawcza \textbf{doors open}, powinien zabrzmieć ostrzegawczy dzwonek.
+			\item Winda nie powinna się poruszyć
 			\item Zwiększenie obciążenia powyżej progu,
-			\item Powinna zapalić się lapka \textbf{overload}, powinien zabrzmieć ostrzegawczy dzwonek
-			\item Próba wysłania windy na następne piętro 
-			\item Winda nie powinna się poruszyć, powinien zabrzmieć ostrzegawczy dzwonek
-			\item Zdjęcie ciężaru poniżej limitu
-			\item Lampka \textbf{overload} powinna zgasnąć
-			\item Próba wysłania windy na następne piętro
-			\item Winda nie powinna się poruszyć, powinien zabrzmieć ostrzegawczy dzwonek
 			\item Zamknięcie drzwiczek
+			\item Próba wysłania windy na następne piętro 
+			\item Winda nie powinna się poruszyć
+			\item Zdjęcie ciężaru poniżej limitu
 			\item Próba wysłania windy na następne piętro
 			\item Winda powinna pojechać			
 		\end{enumerate}
@@ -205,9 +232,10 @@
 			\item winda powinna przyjechać na pierwsze piętro
 			\item wciśnięcie przycisku \textbf{bring here} na poziomie 0
 			\item winda nie powinna podjechać (powinna czekać na rozładowanie)
-			\item wciścięcie przycisku \textbf{ready} na pierwszym piętrze
-			\item wciścięcie przycisku \textbf{bring here} na poziomie 0
-			\item winda powina zjechać na poziom 0
+			\item wciśnięcie przycisku \textbf{Second} na pierwszym poziomie
+			\item winda powinna podjechać na drugie piętro
+			\item wciścięcie przycisku \textbf{ready} na drugim piętrze
+			\item winda powina rozpocząć kolejne zadanie (zjechać na poziom 0)
 		\end{enumerate}
 		
 	\subsection{Przycisk stop i Emergency Ready}
@@ -215,15 +243,13 @@
 		\begin{enumerate}
 			\item wciśnięcie przycisku stop
 			\item próba wysłania windy na pierwsze piętro
-			\item winda nie powinna się poruszyć, powinien zabrzmieć dzwonek ostrzegawczy
 			\item próba przywołania windy na pierszym piętrze 
-			\item winda nie powinna się poruszyć, powinien zbarzmieć dzwonek ostrzegawczy
+			\item winda nie powinna się poruszyć
 			\item przyciśnięcie przycisku \textbf{Emergency Ready}
-			\item próba wysłania windy na pierwsze piętro
+			\item próba przywołania windy na pierszym piętrze 
 			\item winda powinna się pojechać
 			\item wciśnięcie przycisku stop, gdy winda znajduje się między piętrami.
 			\item winda powinna się zatrzmać
-			\item należy ponowić kroki 2-5
 		\end{enumerate} 
 		
 	\subsection{Przycisk EmergencyBringHere}
@@ -231,25 +257,17 @@
 			\item pozostawnienie windy między piętrami (opisane w poprzednim teście)
 			\item wciśnięcie przycisku \textbf{Emergency Bring Here}
 			\item winda powinna zjechać na dolne piętro
-			\item pozostawnienie windy na pierwszym piętrze z otwartymi drzwiczkami (zgodnie z powyższymi opisami)
-			\item punkty 2,3
-			\item pozostawnienie windy na pierwszym piętrze nie rozładowanej (zgodnie z powyższymi opisami)
-			\item punkty 2, 3
-			\item pozostawnienie windy przeciążonej na pierwszym piętrze (zgodnie z powyższymi opisami)
-			\item punkty 2, 3
 		\end{enumerate}
-
-
 		
 	
 \section{Podsumowanie}
-	Budowa oprogramowania przy pomocy środowiska IBM Raphsody 
+	Budowa oprogramowania przy pomocy środowiska IBM Rhapsody 
 	okazała się ciekawym i bardzo rozwijającym doświadczeniem.
 	Produkt firmy IBM umożliwia modelowanie systemów przy pomocy różnorodnych diagramów, najważniejszym dla nas
 	typem diagramu jest diagram stanów, który pozwala definiować i nazywać pewne momenty w czasie życia systemu oraz określać przejścia pomiędzy nimi.
 	Dzięki możliwości wizunej budowy i analizy systemów opartych o maszyny stanowe pakiet ten idalnie 
 	nadaje się do budowy systemów czasu rzeczywistego, zapewniając wysoką przejżystość, pozwala unikać błędów i budować niezawodne oprogramowanie.
-	Kolejnyą zaletą Raphsody jest zastosowanie 
+	Kolejnyą zaletą Rhapsody jest zastosowanie 
 	języków C++ oraz Java które są powszechnie znane i posiadają bardzo 
 	duże wsparcie technicze i ogromne ilości bibliotek.
 	Dzięki IBM Raphsody udało nam się stosunkow szybko stworzyć funkcjonalny i stabilny projekt.

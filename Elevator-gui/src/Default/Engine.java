@@ -31,15 +31,18 @@ public class Engine implements RiJStateConcept {
     
     //#[ ignore 
     public static final int RiJNonState=0;
-    public static final int sendaction_4=1;
-    public static final int sendaction_3=2;
-    public static final int NotWorking=3;
-    public static final int accepteventaction_2=4;
-    public static final int accepteventaction_1=5;
+    public static final int state_5=1;
+    public static final int sendaction_4=2;
+    public static final int sendaction_3=3;
+    public static final int NotWorking=4;
+    public static final int accepteventaction_2=5;
+    public static final int accepteventaction_1=6;
     //#]
     protected int rootState_subState;		//## ignore 
     
     protected int rootState_active;		//## ignore 
+    
+    protected int state_5_subState;		//## ignore 
     
     public static final int Engine_Timeout_accepteventaction_2_id = 1;		//## ignore 
     
@@ -156,6 +159,10 @@ public class Engine implements RiJStateConcept {
         
         //## statechart_method 
         public boolean isIn(int state) {
+            if(state_5_subState == state)
+                {
+                    return true;
+                }
             if(rootState_subState == state)
                 {
                     return true;
@@ -180,21 +187,6 @@ public class Engine implements RiJStateConcept {
         public int rootState_dispatchEvent(short id) {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             switch (rootState_active) {
-                case NotWorking:
-                {
-                    res = NotWorking_takeEvent(id);
-                }
-                break;
-                case accepteventaction_1:
-                {
-                    res = accepteventaction_1_takeEvent(id);
-                }
-                break;
-                case accepteventaction_2:
-                {
-                    res = accepteventaction_2_takeEvent(id);
-                }
-                break;
                 case sendaction_3:
                 {
                     res = sendaction_3_takeEvent(id);
@@ -203,6 +195,21 @@ public class Engine implements RiJStateConcept {
                 case sendaction_4:
                 {
                     res = sendaction_4_takeEvent(id);
+                }
+                break;
+                case accepteventaction_1:
+                {
+                    res = accepteventaction_1_takeEvent(id);
+                }
+                break;
+                case NotWorking:
+                {
+                    res = NotWorking_takeEvent(id);
+                }
+                break;
+                case accepteventaction_2:
+                {
+                    res = accepteventaction_2_takeEvent(id);
                 }
                 break;
                 default:
@@ -215,6 +222,7 @@ public class Engine implements RiJStateConcept {
         protected void initStatechart() {
             rootState_subState = RiJNonState;
             rootState_active = RiJNonState;
+            state_5_subState = RiJNonState;
         }
         
         //## statechart_method 
@@ -226,6 +234,15 @@ public class Engine implements RiJStateConcept {
         public void sendaction_3_exit() {
             popNullConfig();
             sendaction_3Exit();
+        }
+        
+        //## statechart_method 
+        public int state_5TakeStop() {
+            int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
+            state_5_exit();
+            state_5_entDef();
+            res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+            return res;
         }
         
         //## statechart_method 
@@ -259,6 +276,10 @@ public class Engine implements RiJStateConcept {
                     res = accepteventaction_1TakeRiJTimeout();
                 }
             
+            if(res == RiJStateReactive.TAKE_EVENT_NOT_CONSUMED)
+                {
+                    res = state_5_takeEvent(id);
+                }
             return res;
         }
         
@@ -295,7 +316,7 @@ public class Engine implements RiJStateConcept {
         
         //## statechart_method 
         public void accepteventaction_1_enter() {
-            rootState_subState = accepteventaction_1;
+            state_5_subState = accepteventaction_1;
             rootState_active = accepteventaction_1;
             accepteventaction_1Enter();
         }
@@ -312,7 +333,7 @@ public class Engine implements RiJStateConcept {
         
         //## statechart_method 
         public void accepteventaction_2_enter() {
-            rootState_subState = accepteventaction_2;
+            state_5_subState = accepteventaction_2;
             rootState_active = accepteventaction_2;
             accepteventaction_2Enter();
         }
@@ -329,7 +350,7 @@ public class Engine implements RiJStateConcept {
         //## statechart_method 
         public void sendaction_3_enter() {
             pushNullConfig();
-            rootState_subState = sendaction_3;
+            state_5_subState = sendaction_3;
             rootState_active = sendaction_3;
             sendaction_3Enter();
         }
@@ -347,7 +368,7 @@ public class Engine implements RiJStateConcept {
         //## statechart_method 
         public void sendaction_4_enter() {
             pushNullConfig();
-            rootState_subState = sendaction_4;
+            state_5_subState = sendaction_4;
             rootState_active = sendaction_4;
             sendaction_4Enter();
         }
@@ -369,6 +390,21 @@ public class Engine implements RiJStateConcept {
                     res = sendaction_4TakeNull();
                 }
             
+            if(res == RiJStateReactive.TAKE_EVENT_NOT_CONSUMED)
+                {
+                    res = state_5_takeEvent(id);
+                }
+            return res;
+        }
+        
+        //## statechart_method 
+        public int state_5_takeEvent(short id) {
+            int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
+            if(event.isTypeOf(Stop.Stop_Default_id))
+                {
+                    res = state_5TakeStop();
+                }
+            
             return res;
         }
         
@@ -383,7 +419,7 @@ public class Engine implements RiJStateConcept {
         
         //## statechart_method 
         public void NotWorking_enter() {
-            rootState_subState = NotWorking;
+            state_5_subState = NotWorking;
             rootState_active = NotWorking;
             NotWorkingEnter();
         }
@@ -414,12 +450,16 @@ public class Engine implements RiJStateConcept {
                     res = NotWorkingTakeUp();
                 }
             
+            if(res == RiJStateReactive.TAKE_EVENT_NOT_CONSUMED)
+                {
+                    res = state_5_takeEvent(id);
+                }
             return res;
         }
         
         //## statechart_method 
         public void rootStateEntDef() {
-            NotWorking_entDef();
+            state_5_entDef();
         }
         
         //## statechart_method 
@@ -432,6 +472,17 @@ public class Engine implements RiJStateConcept {
                     res = RiJStateReactive.TAKE_EVENT_COMPLETE;
                 }
             return res;
+        }
+        
+        //## statechart_method 
+        public void state_5Exit() {
+        }
+        
+        //## statechart_method 
+        public void state_5_entDef() {
+            state_5_enter();
+            
+            NotWorking_entDef();
         }
         
         //## statechart_method 
@@ -461,14 +512,22 @@ public class Engine implements RiJStateConcept {
                     res = sendaction_3TakeNull();
                 }
             
+            if(res == RiJStateReactive.TAKE_EVENT_NOT_CONSUMED)
+                {
+                    res = state_5_takeEvent(id);
+                }
             return res;
         }
         
         //## statechart_method 
         public void sendaction_4Enter() {
-            //#[ state ROOT.sendaction_4.(Entry) 
+            //#[ state ROOT.state_5.sendaction_4.(Entry) 
             hc.gen(new Default.Down());
             //#]
+        }
+        
+        //## statechart_method 
+        public void state_5Enter() {
         }
         
         //## statechart_method 
@@ -479,12 +538,16 @@ public class Engine implements RiJStateConcept {
                     res = accepteventaction_2TakeRiJTimeout();
                 }
             
+            if(res == RiJStateReactive.TAKE_EVENT_NOT_CONSUMED)
+                {
+                    res = state_5_takeEvent(id);
+                }
             return res;
         }
         
         //## statechart_method 
         public void sendaction_3Enter() {
-            //#[ state ROOT.sendaction_3.(Entry) 
+            //#[ state ROOT.state_5.sendaction_3.(Entry) 
             hc.gen(new Default.Up());
             //#]
         }
@@ -494,9 +557,50 @@ public class Engine implements RiJStateConcept {
         }
         
         //## statechart_method 
+        public void state_5_enter() {
+            rootState_subState = state_5;
+            state_5Enter();
+        }
+        
+        //## statechart_method 
         public void sendaction_4_exit() {
             popNullConfig();
             sendaction_4Exit();
+        }
+        
+        //## statechart_method 
+        public void state_5_exit() {
+            switch (state_5_subState) {
+                case sendaction_3:
+                {
+                    sendaction_3_exit();
+                }
+                break;
+                case sendaction_4:
+                {
+                    sendaction_4_exit();
+                }
+                break;
+                case accepteventaction_1:
+                {
+                    accepteventaction_1_exit();
+                }
+                break;
+                case NotWorking:
+                {
+                    NotWorking_exit();
+                }
+                break;
+                case accepteventaction_2:
+                {
+                    accepteventaction_2_exit();
+                }
+                break;
+                default:
+                    break;
+            }
+            state_5_subState = RiJNonState;
+            state_5Exit();
         }
         
     }

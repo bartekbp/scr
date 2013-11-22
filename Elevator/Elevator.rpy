@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID 0c8283b7-8ceb-4ff1-b6c8-24b29e07e251;
 	- _myState = 8192;
 	- _name = "Elevator";
-	- _modifiedTimeWeak = 11.22.2013::11:23:21;
+	- _modifiedTimeWeak = 11.22.2013::13:28:12;
 	- _lastID = 1;
 	- _UserColors = { IRPYRawContainer 
 		- size = 16;
@@ -19,11 +19,11 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	}
 	- _component = { IHandle 
 		- _m2Class = "IComponent";
-		- _filename = "exe.cmp";
+		- _filename = "animator.cmp";
 		- _subsystem = "";
 		- _class = "";
-		- _name = "exe";
-		- _id = GUID d90e55dd-0cab-4770-8e09-c67348fe3912;
+		- _name = "animator";
+		- _id = GUID a20b32e6-7af9-4318-b013-27301c21bdda;
 	}
 	- Multiplicities = { IRPYRawContainer 
 		- size = 5;

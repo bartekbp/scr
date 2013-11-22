@@ -987,6 +987,9 @@ public class Elevator implements RiJStateConcept {
         public int WorkingElevatorTakeStop() {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             WorkingElevator_exit();
+            //#[ transition 11 
+            hc.gen(new Stop());
+            //#]
             WorkingElevator_enter();
             EmergencyStopped_entDef();
             res = RiJStateReactive.TAKE_EVENT_COMPLETE;
@@ -1122,7 +1125,7 @@ public class Elevator implements RiJStateConcept {
         public int StoppedTakeReadyControllerE() {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             //## transition 4 
-            if(!(lh.isOverload || fl.get(0).areDoorsOpened || fl.get(1).areDoorsOpened || fl.get(2).areDoorsOpened || fl.get(3).areDoorsOpened ))
+            if(!(lc.isOverloaded || fl.get(0).areDoorsOpened || fl.get(1).areDoorsOpened || fl.get(2).areDoorsOpened || fl.get(3).areDoorsOpened ))
                 {
                     Stopped_exit();
                     Finished_entDef();
