@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID 2970263e-bdf6-4006-ba3e-12cef9acae52;
 	- _myState = 8192;
 	- _name = "Default";
-	- _modifiedTimeWeak = 11.22.2013::7:58:53;
+	- _modifiedTimeWeak = 11.22.2013::8:40:22;
 	- _lastID = 81;
 	- Declaratives = { IRPYRawContainer 
 		- size = 2;
@@ -154,7 +154,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			}
 			- _name = "StandardPanel";
 			- _modifiedTimeWeak = 11.22.2013::7:32:18;
-			- _lastModifiedTime = "11.22.2013::8:0:51";
+			- _lastModifiedTime = "11.22.2013::8:40:5";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID d232d45c-18cc-4d89-96cf-810b7feb1c6a;
 				- m_type = 0;
@@ -178,7 +178,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				}
 				- m_drawBehavior = 0;
 				- m_bIsPreferencesInitialized = 0;
-				- elementList = 67;
+				- elementList = 55;
 				{ CGIBox 
 					- _id = GUID e247a3a5-fb82-4643-b712-d4e2f9cbd419;
 					- m_type = 215;
@@ -304,255 +304,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 1.08282 -81 45 ;
+					- m_transform = 1 0 0 0.7546 -81 157.456 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_points = 4 134 17  585 17  585 343  134 343  ;
-				}
-				{ CGIActiveX 
-					- _id = GUID 4af03c18-5bff-472c-b416-3dfe3ac0a147;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "Format";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Led";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "ActiveXProperties@Child.ActiveXControl";
-												- _Value = "BackColor;16777215;BlackWhenOff;-1;Blinking;0;BlinkingTimeMillisec;300;Color;2;State;0;Style;0;";
-												- _Type = String;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 219;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IAttribute";
-						- _id = GUID bc9014f7-0777-42e4-ab56-27615c6fc983;
-					}
-					- m_pParent = GUID e247a3a5-fb82-4643-b712-d4e2f9cbd419;
-					- m_name = { CGIText 
-						- m_str = "led_0";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 4 -8 -11  151 -11  151 11  -8 11  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 1;
-						- m_transform = 1 0 0 1.22727 191 137.5 ;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 0.000126238 0 0 0.000113298 165 175 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-					- Compartments = { IRPYRawContainer 
-						- size = 0;
-					}
-					- m_csModelObjPath = "Default.Elevator[0].fl[1].isOverloaded";
-					- m_csName = "led_0";
-					- m_PartsArray = { IRPYRawContainer 
-						- size = 2;
-						- value = 
-						{ IHandle 
-							- _m2Class = "IPart";
-							- _id = GUID 3a44b591-bbc5-4772-966f-2e65a47b0e80;
-						}
-						{ IHandle 
-							- _m2Class = "IClass";
-							- _id = GUID 6e9ca01c-040b-4e85-bbc9-4f7798db5ef4;
-						}
-					}
-				}
-				{ CGIActiveX 
-					- _id = GUID 5f849614-f344-44dd-ab18-b63373f77b8f;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "Format";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Led";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "ActiveXProperties@Child.ActiveXControl";
-												- _Value = "BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;2;State;0;Style;0;";
-												- _Type = String;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 219;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IAttribute";
-						- _id = GUID 4f687f5e-2c5b-4b5e-9c7d-50b386dd3e13;
-					}
-					- m_pParent = GUID e247a3a5-fb82-4643-b712-d4e2f9cbd419;
-					- m_name = { CGIText 
-						- m_str = "led_1";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 4 -8 -11  151 -11  151 11  -8 11  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 1;
-						- m_transform = 1 0 0 1.22727 399 138.5 ;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 0.000126238 0 0 0.000113298 367 170 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-					- Compartments = { IRPYRawContainer 
-						- size = 0;
-					}
-					- m_csModelObjPath = "Default.Elevator[0].fl[1].areDoorsOpened";
-					- m_csName = "led_1";
-					- m_PartsArray = { IRPYRawContainer 
-						- size = 2;
-						- value = 
-						{ IHandle 
-							- _m2Class = "IPart";
-							- _id = GUID 3a44b591-bbc5-4772-966f-2e65a47b0e80;
-						}
-						{ IHandle 
-							- _m2Class = "IClass";
-							- _id = GUID 6e9ca01c-040b-4e85-bbc9-4f7798db5ef4;
-						}
-					}
-				}
-				{ CGIFreeText 
-					- _id = GUID 37042a25-1538-4e27-8f09-6e23ca15d186;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "Format";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "FreeText";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "Wordbreak";
-												- _Value = "True";
-												- _Type = Bool;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 189;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "";
-					}
-					- m_pParent = GUID e247a3a5-fb82-4643-b712-d4e2f9cbd419;
-					- m_name = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 0.761905 -26 88 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_points = 4 152 36  240 36  240 78  152 78  ;
-					- m_text = "Overload
-";
-				}
-				{ CGIFreeText 
-					- _id = GUID 6c36c0b0-1201-43e2-a6ee-73526e85155c;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "Format";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "FreeText";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "Wordbreak";
-												- _Value = "True";
-												- _Type = Bool;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 189;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "";
-					}
-					- m_pParent = GUID e247a3a5-fb82-4643-b712-d4e2f9cbd419;
-					- m_name = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 0.5 180 99 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_points = 4 152 36  263 36  263 78  152 78  ;
-					- m_text = "Doors Open
-";
 				}
 				{ CGIFreeText 
 					- _id = GUID b28b36fb-969f-488f-8a79-74c1e58b5946;
@@ -667,7 +421,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 1 -189 29 ;
+					- m_transform = 1 0 0 1 -185 144 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_points = 4 377 40  573 40  573 92  377 92  ;
 					- m_text = "Standard Panel 1";
@@ -902,255 +656,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 1.07975 417 41 ;
+					- m_transform = 1 0 0 0.748463 417 154.523 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_points = 4 134 17  585 17  585 343  134 343  ;
-				}
-				{ CGIActiveX 
-					- _id = GUID 5d6ea028-73ac-48f1-a074-4d15019d62db;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "Format";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Led";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "ActiveXProperties@Child.ActiveXControl";
-												- _Value = "BackColor;16777215;BlackWhenOff;-1;Blinking;0;BlinkingTimeMillisec;300;Color;2;State;0;Style;0;";
-												- _Type = String;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 219;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IAttribute";
-						- _id = GUID bc9014f7-0777-42e4-ab56-27615c6fc983;
-					}
-					- m_pParent = GUID e247a3a5-fb82-4643-b712-d4e2f9cbd419;
-					- m_name = { CGIText 
-						- m_str = "led_0";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 4 -8 -11  151 -11  151 11  -8 11  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 1;
-						- m_transform = 1 0 0 1.22727 191 137.5 ;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 0.000126238 0 0 0.000113298 658 170 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-					- Compartments = { IRPYRawContainer 
-						- size = 0;
-					}
-					- m_csModelObjPath = "Default.Elevator[0].fl[2].isOverloaded";
-					- m_csName = "led_0";
-					- m_PartsArray = { IRPYRawContainer 
-						- size = 2;
-						- value = 
-						{ IHandle 
-							- _m2Class = "IPart";
-							- _id = GUID 3a44b591-bbc5-4772-966f-2e65a47b0e80;
-						}
-						{ IHandle 
-							- _m2Class = "IClass";
-							- _id = GUID 6e9ca01c-040b-4e85-bbc9-4f7798db5ef4;
-						}
-					}
-				}
-				{ CGIActiveX 
-					- _id = GUID 95b52208-175b-47ed-b4b8-f7f810865135;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "Format";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Led";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "ActiveXProperties@Child.ActiveXControl";
-												- _Value = "BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;2;State;0;Style;0;";
-												- _Type = String;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 219;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IAttribute";
-						- _id = GUID 4f687f5e-2c5b-4b5e-9c7d-50b386dd3e13;
-					}
-					- m_pParent = GUID e247a3a5-fb82-4643-b712-d4e2f9cbd419;
-					- m_name = { CGIText 
-						- m_str = "led_1";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 4 -8 -11  151 -11  151 11  -8 11  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 1;
-						- m_transform = 1 0 0 1.22727 399 138.5 ;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 0.000126238 0 0 0.000113298 860 165 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-					- Compartments = { IRPYRawContainer 
-						- size = 0;
-					}
-					- m_csModelObjPath = "Default.Elevator[0].fl[2].areDoorsOpened";
-					- m_csName = "led_1";
-					- m_PartsArray = { IRPYRawContainer 
-						- size = 2;
-						- value = 
-						{ IHandle 
-							- _m2Class = "IPart";
-							- _id = GUID 3a44b591-bbc5-4772-966f-2e65a47b0e80;
-						}
-						{ IHandle 
-							- _m2Class = "IClass";
-							- _id = GUID 6e9ca01c-040b-4e85-bbc9-4f7798db5ef4;
-						}
-					}
-				}
-				{ CGIFreeText 
-					- _id = GUID 0a503677-aba7-45e0-8091-50b533032a20;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "Format";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "FreeText";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "Wordbreak";
-												- _Value = "True";
-												- _Type = Bool;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 189;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "";
-					}
-					- m_pParent = GUID e247a3a5-fb82-4643-b712-d4e2f9cbd419;
-					- m_name = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 0.761905 467 83 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_points = 4 152 36  240 36  240 78  152 78  ;
-					- m_text = "Overload
-";
-				}
-				{ CGIFreeText 
-					- _id = GUID 36753e00-0eff-4b10-a3ce-07f8f57a3b8e;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "Format";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "FreeText";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "Wordbreak";
-												- _Value = "True";
-												- _Type = Bool;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 189;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "";
-					}
-					- m_pParent = GUID e247a3a5-fb82-4643-b712-d4e2f9cbd419;
-					- m_name = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 0.5 673 94 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_points = 4 152 36  263 36  263 78  152 78  ;
-					- m_text = "Doors Open
-";
 				}
 				{ CGIFreeText 
 					- _id = GUID b564892b-f90e-4877-9caa-6971de7995fa;
@@ -1265,7 +773,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 1 304 24 ;
+					- m_transform = 1 0 0 1 320 141 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_points = 4 377 40  573 40  573 66  377 66  ;
 					- m_text = "Standard Panel 2";
@@ -1500,255 +1008,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 1.06748 902 46 ;
+					- m_transform = 1 0 0 0.739261 902 158.534 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_points = 4 134 17  585 17  585 343  134 343  ;
-				}
-				{ CGIActiveX 
-					- _id = GUID 344901eb-6671-4043-9ed1-8c1f291ee9e7;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "Format";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Led";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "ActiveXProperties@Child.ActiveXControl";
-												- _Value = "BackColor;16777215;BlackWhenOff;-1;Blinking;0;BlinkingTimeMillisec;300;Color;2;State;0;Style;0;";
-												- _Type = String;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 219;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IAttribute";
-						- _id = GUID bc9014f7-0777-42e4-ab56-27615c6fc983;
-					}
-					- m_pParent = GUID e247a3a5-fb82-4643-b712-d4e2f9cbd419;
-					- m_name = { CGIText 
-						- m_str = "led_0";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 4 -8 -11  151 -11  151 11  -8 11  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 1;
-						- m_transform = 1 0 0 1.22727 191 137.5 ;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 0.000126238 0 0 0.000113298 1153 181 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-					- Compartments = { IRPYRawContainer 
-						- size = 0;
-					}
-					- m_csModelObjPath = "Default.Elevator[0].fl[3].isOverloaded";
-					- m_csName = "led_0";
-					- m_PartsArray = { IRPYRawContainer 
-						- size = 2;
-						- value = 
-						{ IHandle 
-							- _m2Class = "IPart";
-							- _id = GUID 3a44b591-bbc5-4772-966f-2e65a47b0e80;
-						}
-						{ IHandle 
-							- _m2Class = "IClass";
-							- _id = GUID 6e9ca01c-040b-4e85-bbc9-4f7798db5ef4;
-						}
-					}
-				}
-				{ CGIActiveX 
-					- _id = GUID 50760e1d-7cf4-401e-8648-e9f4e4ade1a5;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "Format";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Led";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "ActiveXProperties@Child.ActiveXControl";
-												- _Value = "BackColor;16777215;BlackWhenOff;0;Blinking;0;BlinkingTimeMillisec;300;Color;2;State;0;Style;0;";
-												- _Type = String;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 219;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IAttribute";
-						- _id = GUID 4f687f5e-2c5b-4b5e-9c7d-50b386dd3e13;
-					}
-					- m_pParent = GUID e247a3a5-fb82-4643-b712-d4e2f9cbd419;
-					- m_name = { CGIText 
-						- m_str = "led_1";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 4 -8 -11  151 -11  151 11  -8 11  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 1;
-						- m_transform = 1 0 0 1.22727 399 138.5 ;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 0.000126238 0 0 0.000113298 1355 176 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-					- Compartments = { IRPYRawContainer 
-						- size = 0;
-					}
-					- m_csModelObjPath = "Default.Elevator[0].fl[3].areDoorsOpened";
-					- m_csName = "led_1";
-					- m_PartsArray = { IRPYRawContainer 
-						- size = 2;
-						- value = 
-						{ IHandle 
-							- _m2Class = "IPart";
-							- _id = GUID 3a44b591-bbc5-4772-966f-2e65a47b0e80;
-						}
-						{ IHandle 
-							- _m2Class = "IClass";
-							- _id = GUID 6e9ca01c-040b-4e85-bbc9-4f7798db5ef4;
-						}
-					}
-				}
-				{ CGIFreeText 
-					- _id = GUID 50ac5110-c1b0-4572-b185-f9f5352b7d2a;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "Format";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "FreeText";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "Wordbreak";
-												- _Value = "True";
-												- _Type = Bool;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 189;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "";
-					}
-					- m_pParent = GUID e247a3a5-fb82-4643-b712-d4e2f9cbd419;
-					- m_name = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 0.761905 962 94 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_points = 4 152 36  240 36  240 78  152 78  ;
-					- m_text = "Overload
-";
-				}
-				{ CGIFreeText 
-					- _id = GUID d714fbe1-0019-4dee-9bc5-860453e6d15a;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "Format";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "FreeText";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "Wordbreak";
-												- _Value = "True";
-												- _Type = Bool;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 189;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "";
-					}
-					- m_pParent = GUID e247a3a5-fb82-4643-b712-d4e2f9cbd419;
-					- m_name = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 0.5 1168 105 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_points = 4 152 36  263 36  263 78  152 78  ;
-					- m_text = "Doors Open
-";
 				}
 				{ CGIFreeText 
 					- _id = GUID 1206a615-16cf-47a5-90df-b4300c9ed682;
@@ -1863,7 +1125,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 1 799 35 ;
+					- m_transform = 1 0 0 1 800 155 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_points = 4 377 40  573 40  573 66  377 66  ;
 					- m_text = "Standard Panel 3";
@@ -2675,7 +1937,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 1 -145 68 ;
+					- m_transform = 1 0 0 1 143 79 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_points = 4 229 409  333 409  333 443  229 443  ;
 					- m_text = "Doors opened
@@ -2702,7 +1964,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 1 366 61 ;
+					- m_transform = 1 0 0 1 628 61 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_points = 4 229 409  333 409  333 443  229 443  ;
 					- m_text = "Doors opened
@@ -2729,7 +1991,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 1 852 67 ;
+					- m_transform = 1 0 0 1 1127 75 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_points = 4 229 409  333 409  333 443  229 443  ;
 					- m_text = "Doors opened
@@ -2756,10 +2018,10 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 1 -274 -142 ;
+					- m_transform = 1 0 0 1 -523 -127 ;
 					- m_bIsPreferencesInitialized = 1;
-					- m_points = 4 630 621  671 621  671 639  630 639  ;
-					- m_text = "Overweight";
+					- m_points = 4 630 621  715 621  715 639  630 639  ;
+					- m_text = "Overload";
 				}
 				{ CGIFreeText 
 					- _id = GUID cc817b5c-2479-4cd7-9dce-128ee5999c6e;
@@ -2782,10 +2044,10 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 1 230 -142 ;
+					- m_transform = 1 0 0 1 -18 -143 ;
 					- m_bIsPreferencesInitialized = 1;
-					- m_points = 4 630 621  671 621  671 639  630 639  ;
-					- m_text = "Overweight";
+					- m_points = 4 630 621  715 621  715 639  630 639  ;
+					- m_text = "Overload";
 				}
 				{ CGIFreeText 
 					- _id = GUID 74f105a1-e94d-458d-bf8d-35242c6a33e1;
@@ -2808,10 +2070,10 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 1 713 -143 ;
+					- m_transform = 1 0 0 1 465 -130 ;
 					- m_bIsPreferencesInitialized = 1;
-					- m_points = 4 630 621  671 621  671 639  630 639  ;
-					- m_text = "Overweight";
+					- m_points = 4 630 621  715 621  715 639  630 639  ;
+					- m_text = "Overload";
 				}
 				{ CGIActiveX 
 					- _id = GUID 987da356-1a87-40ff-bb85-ff52f1758f16;
@@ -2860,7 +2122,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000126238 0 0 0.000113298 125 520 ;
+					- m_transform = 0.000126238 0 0 0.000113298 408 530 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -2926,7 +2188,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000126238 0 0 0.000113298 639 515 ;
+					- m_transform = 0.000126238 0 0 0.000113298 891 527 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -2992,7 +2254,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000126238 0 0 0.000113298 1126 527 ;
+					- m_transform = 0.000126238 0 0 0.000113298 1399 530 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -3058,7 +2320,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000796271 0 0 0.000261456 95 561 ;
+					- m_transform = 0.000796271 0 0 0.000261456 371 564 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -3129,7 +2391,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000796271 0 0 0.000261456 606 556 ;
+					- m_transform = 0.000796271 0 0 0.000261456 867 559 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -3200,7 +2462,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000796271 0 0 0.000261456 1092 558 ;
+					- m_transform = 0.000796271 0 0 0.000261456 1371 562 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -3271,7 +2533,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000126238 0 0 0.000113298 397 518 ;
+					- m_transform = 0.000126238 0 0 0.000113298 136 534 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -3337,7 +2599,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000126238 0 0 0.000113298 884 512 ;
+					- m_transform = 0.000126238 0 0 0.000113298 636 522 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -3403,7 +2665,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000126238 0 0 0.000113298 1388 521 ;
+					- m_transform = 0.000126238 0 0 0.000113298 1126 530 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -3469,7 +2731,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000796271 0 0 0.000261456 1360 562 ;
+					- m_transform = 0.000796271 0 0 0.000261456 1091 557 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -3540,7 +2802,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000796271 0 0 0.000261456 849 561 ;
+					- m_transform = 0.000796271 0 0 0.000261456 606 563 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -3611,7 +2873,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000796271 0 0 0.000261456 363 559 ;
+					- m_transform = 0.000796271 0 0 0.000261456 107 561 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -3635,8 +2897,8 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					}
 					- m_csButtonCaption = "Change";
 				}
-				{ CGIActiveX 
-					- _id = GUID 13d6cbbb-4419-4f9a-ae1a-3fdfb7ba9003;
+				{ CGIFreeText 
+					- _id = GUID 790131da-f2c9-479e-9196-d731d68d8d44;
 					- _properties = { IPropertyContainer 
 						- Subjects = { IRPYRawContainer 
 							- size = 1;
@@ -3647,14 +2909,14 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 									- size = 1;
 									- value = 
 									{ IPropertyMetaclass 
-										- _Name = "DigitalDisplay";
+										- _Name = "FreeText";
 										- Properties = { IRPYRawContainer 
 											- size = 1;
 											- value = 
 											{ IProperty 
-												- _Name = "ActiveXProperties@Child.ActiveXControl";
-												- _Value = "BackColor;16777215;DisplayedString;;Style;4;";
-												- _Type = String;
+												- _Name = "Wordbreak";
+												- _Value = "True";
+												- _Type = Bool;
 											}
 										}
 									}
@@ -3662,51 +2924,6 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 							}
 						}
 					}
-					- m_type = 221;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IAttribute";
-						- _id = GUID 6d66c566-571a-45a4-8009-d7837533f875;
-					}
-					- m_pParent = GUID e247a3a5-fb82-4643-b712-d4e2f9cbd419;
-					- m_name = { CGIText 
-						- m_str = "digitaldisplay_0";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 0.00157312 0 0 0.000278887 1572 168 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-					- Compartments = { IRPYRawContainer 
-						- size = 0;
-					}
-					- m_csModelObjPath = "Default.Elevator[0].hc.level";
-					- m_csName = "digitaldisplay_0";
-					- m_PartsArray = { IRPYRawContainer 
-						- size = 2;
-						- value = 
-						{ IHandle 
-							- _m2Class = "IPart";
-							- _id = GUID 97b85726-6f4c-4a45-952b-dbb412eb677e;
-						}
-						{ IHandle 
-							- _m2Class = "IClass";
-							- _id = GUID 6e9ca01c-040b-4e85-bbc9-4f7798db5ef4;
-						}
-					}
-				}
-				{ CGIFreeText 
-					- _id = GUID 790131da-f2c9-479e-9196-d731d68d8d44;
 					- m_type = 189;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "";
@@ -3726,11 +2943,82 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 1 703 51 ;
+					- m_transform = 1 0 0 0.588235 -331 31.5882 ;
 					- m_bIsPreferencesInitialized = 1;
-					- m_points = 4 897 67  938 67  938 85  897 85  ;
+					- m_points = 4 897 67  991 67  991 101  897 101  ;
 					- m_text = "Current level
 ";
+				}
+				{ CGIActiveX 
+					- _id = GUID 46f224b8-e264-47dc-ae68-f3c5c112dff6;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Gauge";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ActiveXProperties@Child.ActiveXControl";
+												- _Value = "BackColor;16777215;Caption;;CaptionColor;16777215;CaptionFont;Arial;;12;-1;-1;0;0;700;0;DivisionLineThickness;2;EnclosingCircleColor;12632256;EndAngle;-45;ExternalCircleThickness;3;ForeColor;0;GreenColor;65280;GreenStartValue;60;IndexColor;12582912;IndexLineThickness;0;InternalCircleThickness;2;MaximumValue;3;MinimumValue;0;NumberColor;4210752;NumberFont;Arial;;8.25;0;0;0;0;400;0;NumberOfDivisions;3;NumberOfSubdivisions;2;RedColor;255;RedStartValue;90;RelativeCaptionX;0.5;RelativeCaptionY;0.5;RelativeCenter
+X;0.5;RelativeCenterY;0.55;RelativeEnclosingCircleRadius;0.98;RelativeExternalRadius;1.1;RelativeIndexBackLength;0.3;RelativeIndexLength;1.2;RelativeInternalRadius;0.35;RelativeTextRadius;1.1;ScaleCircleColor;16777215;StartAngle;225;StepValue;1;SubdivisionLineThickness;1;TailAngle;165;Value;0;ValueFormatString;%.0f;YellowColor;65535;YellowStartValue;75;";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 217;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IAttribute";
+						- _id = GUID 6d66c566-571a-45a4-8009-d7837533f875;
+					}
+					- m_pParent = GUID e247a3a5-fb82-4643-b712-d4e2f9cbd419;
+					- m_name = { CGIText 
+						- m_str = "gauge_0";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 0.0015537 0 0 0.00139443 670 19.5533 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "Default.Elevator[0].hc.level";
+					- m_csName = "gauge_0";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IPart";
+							- _id = GUID 97b85726-6f4c-4a45-952b-dbb412eb677e;
+						}
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _id = GUID 6e9ca01c-040b-4e85-bbc9-4f7798db5ef4;
+						}
+					}
 				}
 				
 				- m_access = 'Z';
@@ -3896,7 +3184,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			}
 			- _name = "BasePanel";
 			- _modifiedTimeWeak = 11.21.2013::12:11:53;
-			- _lastModifiedTime = "11.22.2013::7:58:35";
+			- _lastModifiedTime = "11.22.2013::8:40:35";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 3bee35b4-13f8-41d9-a85f-200ba0ddf5b3;
 				- m_type = 0;
@@ -3920,7 +3208,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				}
 				- m_drawBehavior = 0;
 				- m_bIsPreferencesInitialized = 0;
-				- elementList = 27;
+				- elementList = 23;
 				{ CGIBox 
 					- _id = GUID 8f9b7ef5-9377-4982-a94d-fd9e82971b9f;
 					- m_type = 215;
@@ -3997,255 +3285,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 1.33742 194 43 ;
+					- m_transform = 1 0 0 0.969323 194 169.33 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_points = 4 134 17  585 17  585 343  134 343  ;
-				}
-				{ CGIActiveX 
-					- _id = GUID 37afa068-7633-4da6-871b-a33765ad0a2d;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "Format";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Led";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "ActiveXProperties@Child.ActiveXControl";
-												- _Value = "BackColor;16777215;BlackWhenOff;-1;Blinking;0;BlinkingTimeMillisec;300;Color;0;State;-1;Style;0;";
-												- _Type = String;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 219;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IAttribute";
-						- _id = GUID bc9014f7-0777-42e4-ab56-27615c6fc983;
-					}
-					- m_pParent = GUID 8f9b7ef5-9377-4982-a94d-fd9e82971b9f;
-					- m_name = { CGIText 
-						- m_str = "led_0";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 4 -8 -11  151 -11  151 11  -8 11  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 1;
-						- m_transform = 1 0 0 1.22727 191 137.5 ;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 0.000126238 0 0 0.000113298 445 184 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-					- Compartments = { IRPYRawContainer 
-						- size = 0;
-					}
-					- m_csModelObjPath = "Default.Elevator[0].fl[0].isOverloaded";
-					- m_csName = "led_0";
-					- m_PartsArray = { IRPYRawContainer 
-						- size = 2;
-						- value = 
-						{ IHandle 
-							- _m2Class = "IPart";
-							- _id = GUID 3a44b591-bbc5-4772-966f-2e65a47b0e80;
-						}
-						{ IHandle 
-							- _m2Class = "IClass";
-							- _id = GUID 6e9ca01c-040b-4e85-bbc9-4f7798db5ef4;
-						}
-					}
-				}
-				{ CGIActiveX 
-					- _id = GUID 8bf3eb89-c875-408e-a1b4-017742bbfe86;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "Format";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "Led";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "ActiveXProperties@Child.ActiveXControl";
-												- _Value = "BackColor;16777215;BlackWhenOff;-1;Blinking;0;BlinkingTimeMillisec;300;Color;0;State;-1;Style;0;";
-												- _Type = String;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 219;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IAttribute";
-						- _id = GUID 4f687f5e-2c5b-4b5e-9c7d-50b386dd3e13;
-					}
-					- m_pParent = GUID 8f9b7ef5-9377-4982-a94d-fd9e82971b9f;
-					- m_name = { CGIText 
-						- m_str = "led_1";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 4 -8 -11  151 -11  151 11  -8 11  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 1;
-						- m_transform = 1 0 0 1.22727 399 138.5 ;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 0.000126238 0 0 0.000113298 647 179 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-					- Compartments = { IRPYRawContainer 
-						- size = 0;
-					}
-					- m_csModelObjPath = "Default.Elevator[0].fl[0].areDoorsOpened";
-					- m_csName = "led_1";
-					- m_PartsArray = { IRPYRawContainer 
-						- size = 2;
-						- value = 
-						{ IHandle 
-							- _m2Class = "IPart";
-							- _id = GUID 3a44b591-bbc5-4772-966f-2e65a47b0e80;
-						}
-						{ IHandle 
-							- _m2Class = "IClass";
-							- _id = GUID 6e9ca01c-040b-4e85-bbc9-4f7798db5ef4;
-						}
-					}
-				}
-				{ CGIFreeText 
-					- _id = GUID 705586c4-b868-4b77-8279-a77b32011c87;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "Format";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "FreeText";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "Wordbreak";
-												- _Value = "True";
-												- _Type = Bool;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 189;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "";
-					}
-					- m_pParent = GUID 8f9b7ef5-9377-4982-a94d-fd9e82971b9f;
-					- m_name = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 0.761905 254 97 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_points = 4 152 36  240 36  240 78  152 78  ;
-					- m_text = "Overload
-";
-				}
-				{ CGIFreeText 
-					- _id = GUID f3c3378a-c958-422a-ad16-8f0248cff090;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "Format";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "FreeText";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "Wordbreak";
-												- _Value = "True";
-												- _Type = Bool;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 189;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "";
-					}
-					- m_pParent = GUID 8f9b7ef5-9377-4982-a94d-fd9e82971b9f;
-					- m_name = { CGIText 
-						- m_str = "";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 8;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 0.5 460 108 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_points = 4 152 36  263 36  263 78  152 78  ;
-					- m_text = "Doors Open
-";
 				}
 				{ CGIMFCCtrl 
 					- _id = GUID e3dd70b4-ffa5-40df-9602-7853fe2a6ca8;
@@ -4498,7 +3540,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 1 120 39 ;
+					- m_transform = 1 0 0 1 130 160 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_points = 4 377 40  554 40  554 66  377 66  ;
 					- m_text = "Base Panel";
@@ -4964,7 +4006,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000126238 0 0 0.000113298 432 576 ;
+					- m_transform = 0.000126238 0 0 0.000113298 443 589 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -5004,7 +4046,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 1 -14 11 ;
+					- m_transform = 1 0 0 1 223 10 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_points = 4 409 531  450 531  450 549  409 549  ;
 					- m_text = "Doors opened";
@@ -5056,7 +4098,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000835114 0 0 0.000322463 398 606 ;
+					- m_transform = 0.000835114 0 0 0.000322463 404 617 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -5127,7 +4169,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000835114 0 0 0.000322463 623 606 ;
+					- m_transform = 0.000835114 0 0 0.000322463 632 615 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -5200,7 +4242,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 1;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 0.000126238 0 0 0.000113298 655 577 ;
+					- m_transform = 0.000126238 0 0 0.000113298 670 585 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
 					- m_nNameFormat = 0;
@@ -5240,80 +4282,10 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 1 215 6 ;
+					- m_transform = 1 0 0 1 -2 13 ;
 					- m_bIsPreferencesInitialized = 1;
-					- m_points = 4 409 531  510 531  510 549  409 549  ;
-					- m_text = "Overweight";
-				}
-				{ CGIActiveX 
-					- _id = GUID 65650223-3e91-4f1e-a0b5-6a1e8f602609;
-					- _properties = { IPropertyContainer 
-						- Subjects = { IRPYRawContainer 
-							- size = 1;
-							- value = 
-							{ IPropertySubject 
-								- _Name = "Format";
-								- Metaclasses = { IRPYRawContainer 
-									- size = 1;
-									- value = 
-									{ IPropertyMetaclass 
-										- _Name = "DigitalDisplay";
-										- Properties = { IRPYRawContainer 
-											- size = 1;
-											- value = 
-											{ IProperty 
-												- _Name = "ActiveXProperties@Child.ActiveXControl";
-												- _Value = "BackColor;16777215;DisplayedString;;Style;4;";
-												- _Type = String;
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-					- m_type = 221;
-					- m_pModelObject = { IHandle 
-						- _m2Class = "IAttribute";
-						- _id = GUID 6d66c566-571a-45a4-8009-d7837533f875;
-					}
-					- m_pParent = GUID 8f9b7ef5-9377-4982-a94d-fd9e82971b9f;
-					- m_name = { CGIText 
-						- m_str = "digitaldisplay_0";
-						- m_style = "Arial" 10 0 0 0 1 ;
-						- m_color = { IColor 
-							- m_fgColor = 0;
-							- m_bgColor = 0;
-							- m_bgFlag = 0;
-						}
-						- m_position = 1 0 0  ;
-						- m_nIdent = 0;
-						- m_bImplicitSetRectPoints = 0;
-						- m_nOrientationCtrlPt = 1;
-					}
-					- m_drawBehavior = 4096;
-					- m_transform = 0.00157312 0 0 0.000278887 890 131.311 ;
-					- m_bIsPreferencesInitialized = 1;
-					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
-					- m_nNameFormat = 0;
-					- m_nIsNameFormat = 0;
-					- Compartments = { IRPYRawContainer 
-						- size = 0;
-					}
-					- m_csModelObjPath = "Default.Elevator[0].hc.level";
-					- m_csName = "digitaldisplay_0";
-					- m_PartsArray = { IRPYRawContainer 
-						- size = 2;
-						- value = 
-						{ IHandle 
-							- _m2Class = "IPart";
-							- _id = GUID 97b85726-6f4c-4a45-952b-dbb412eb677e;
-						}
-						{ IHandle 
-							- _m2Class = "IClass";
-							- _id = GUID 6e9ca01c-040b-4e85-bbc9-4f7798db5ef4;
-						}
-					}
+					- m_points = 4 409 531  494 531  494 549  409 549  ;
+					- m_text = "Overload";
 				}
 				{ CGIFreeText 
 					- _id = GUID 87fce06b-436b-4850-a919-a66a7ea6dde6;
@@ -5336,11 +4308,82 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1 0 0 1 30 27 ;
+					- m_transform = 1 0 0 1 -383 -65 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_points = 4 897 67  938 67  938 85  897 85  ;
 					- m_text = "Current level
 ";
+				}
+				{ CGIActiveX 
+					- _id = GUID 59c80e04-8a16-4025-87aa-6c5226946714;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "Format";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Gauge";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "ActiveXProperties@Child.ActiveXControl";
+												- _Value = "BackColor;16777215;Caption;;CaptionColor;16777215;CaptionFont;Arial;;12;-1;-1;0;0;700;0;DivisionLineThickness;2;EnclosingCircleColor;12632256;EndAngle;-45;ExternalCircleThickness;3;ForeColor;0;GreenColor;65280;GreenStartValue;60;IndexColor;12582912;IndexLineThickness;0;InternalCircleThickness;2;MaximumValue;3;MinimumValue;0;NumberColor;4210752;NumberFont;Arial;;8.25;0;0;0;0;400;0;NumberOfDivisions;3;NumberOfSubdivisions;2;RedColor;255;RedStartValue;90;RelativeCaptionX;0.5;RelativeCaptionY;0.5;RelativeCenter
+X;0.5;RelativeCenterY;0.55;RelativeEnclosingCircleRadius;0.98;RelativeExternalRadius;1.1;RelativeIndexBackLength;0.3;RelativeIndexLength;1.2;RelativeInternalRadius;0.35;RelativeTextRadius;1.1;ScaleCircleColor;16777215;StartAngle;225;StepValue;1;SubdivisionLineThickness;1;TailAngle;165;Value;0;ValueFormatString;%.0f;YellowColor;65535;YellowStartValue;75;";
+												- _Type = String;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					- m_type = 217;
+					- m_pModelObject = { IHandle 
+						- _m2Class = "IAttribute";
+						- _id = GUID 6d66c566-571a-45a4-8009-d7837533f875;
+					}
+					- m_pParent = GUID 8f9b7ef5-9377-4982-a94d-fd9e82971b9f;
+					- m_name = { CGIText 
+						- m_str = "gauge_0";
+						- m_style = "Arial" 10 0 0 0 1 ;
+						- m_color = { IColor 
+							- m_fgColor = 0;
+							- m_bgColor = 0;
+							- m_bgFlag = 0;
+						}
+						- m_position = 1 0 0  ;
+						- m_nIdent = 0;
+						- m_bImplicitSetRectPoints = 0;
+						- m_nOrientationCtrlPt = 1;
+					}
+					- m_drawBehavior = 4096;
+					- m_transform = 0.0015537 0 0 0.00139443 476 40 ;
+					- m_bIsPreferencesInitialized = 1;
+					- m_polygon = 4 0 -1114  0 113628  102980 113628  102980 -1114  ;
+					- m_nNameFormat = 0;
+					- m_nIsNameFormat = 0;
+					- Compartments = { IRPYRawContainer 
+						- size = 0;
+					}
+					- m_csModelObjPath = "Default.Elevator[0].hc.level";
+					- m_csName = "gauge_0";
+					- m_PartsArray = { IRPYRawContainer 
+						- size = 2;
+						- value = 
+						{ IHandle 
+							- _m2Class = "IPart";
+							- _id = GUID 97b85726-6f4c-4a45-952b-dbb412eb677e;
+						}
+						{ IHandle 
+							- _m2Class = "IClass";
+							- _id = GUID 6e9ca01c-040b-4e85-bbc9-4f7798db5ef4;
+						}
+					}
 				}
 				
 				- m_access = 'Z';
@@ -5361,7 +4404,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			}
 		}
 	}
-	- weakCGTime = 11.22.2013::7:58:53;
+	- weakCGTime = 11.22.2013::8:40:22;
 	- strongCGTime = 1.2.1990::0:0:0;
 	- _defaultComposite = GUID 3ef28997-457c-4341-aefa-5f4c2e0eca8c;
 	- _eventsBaseID = 18616;
@@ -5385,7 +4428,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 6e9ca01c-040b-4e85-bbc9-4f7798db5ef4;
 			- _myState = 8192;
 			- _name = "Elevator";
-			- _modifiedTimeWeak = 11.22.2013::7:34:39;
+			- _modifiedTimeWeak = 11.22.2013::8:29:49;
 			- _lastID = 16;
 			- Declaratives = { IRPYRawContainer 
 				- size = 2;
@@ -5826,7 +4869,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					- _classModifier = Unspecified;
 				}
 			}
-			- weakCGTime = 11.22.2013::7:34:39;
+			- weakCGTime = 11.22.2013::8:29:49;
 			- strongCGTime = 11.21.2013::14:27:32;
 			- Operations = { IRPYRawContainer 
 				- size = 11;
@@ -6039,9 +5082,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					- _id = GUID c1575074-08e9-486d-8f39-2ccbe12af9b0;
 					- _myState = 10240;
 					- _name = "statechart_5";
-					- _modifiedTimeWeak = 11.22.2013::7:34:39;
-					- _lastID = 53;
-					- weakCGTime = 11.22.2013::7:34:39;
+					- _modifiedTimeWeak = 11.22.2013::8:29:49;
+					- _lastID = 56;
+					- weakCGTime = 11.22.2013::8:29:49;
 					- strongCGTime = 11.21.2013::14:27:32;
 					- _multiplicity = "";
 					- _itsStateChart = { IHandle 
@@ -6394,10 +5437,10 @@ fl.get(params.level).isOverloaded = params.isOverloaded";
 							- _id = GUID 56f85c01-afe5-4bf8-801b-44b645cf1897;
 							- _myState = 2048;
 							- _name = "transition_46";
-							- _modifiedTimeWeak = 11.17.2013::15:20:13;
+							- _modifiedTimeWeak = 11.22.2013::8:10:33;
 							- _itsLabel = { ILabel 
 								- _id = GUID 32ec9cba-01fb-4627-a0d9-e83c04103cfe;
-								- _modifiedTimeWeak = 11.17.2013::15:20:13;
+								- _modifiedTimeWeak = 11.22.2013::8:10:33;
 								- _itsTrigger = { IInterfaceItemTrigger 
 									- _id = GUID dc0d07e2-1a92-493e-9c23-9c82f2575f96;
 									- _modifiedTimeWeak = 11.17.2013::15:20:13;
@@ -6408,7 +5451,11 @@ fl.get(params.level).isOverloaded = params.isOverloaded";
 										- _id = GUID 41513545-4957-4be8-9307-dcf62835f390;
 									}
 								}
-								- _itsGuard = NULL;
+								- _itsGuard = { IGuard 
+									- _id = GUID 292d5037-b8c3-486b-85f6-677c4a4aa2e8;
+									- _modifiedTimeWeak = 1.1.1970::1:0:0;
+									- _body = "fl.get(hc.level).isOverloaded == false && fl.get(hc.level).areDoorsOpened == false";
+								}
 								- _itsAction = { IAction 
 									- _id = GUID 428a9c0d-801a-4cf6-9af0-642882049b94;
 									- _modifiedTimeWeak = 11.17.2013::15:0:13;
@@ -6572,7 +5619,7 @@ if(effectors != null) {
 						{ IState 
 							- _id = GUID 28096ef2-c856-4b98-88ad-585f7bd0064f;
 							- _name = "Stopped";
-							- _modifiedTimeWeak = 11.22.2013::7:7:44;
+							- _modifiedTimeWeak = 11.22.2013::8:29:49;
 							- _parent = GUID be29a503-d379-4cf8-8ff6-16add65d8d6a;
 							- _defaultTrans = ;
 							- _entryAction = { IAction 
@@ -6642,7 +5689,7 @@ if(effectors != null) {
 							- _defaultTrans = GUID 8112df3e-903a-4092-97c8-0c3b20ea0127;
 						}
 					}
-					- _version = 11.22.2013::8:34:39;
+					- _version = 11.22.2013::9:29:49;
 					- _baseVersion = 1.2.1990::0:0:0;
 					- _diagram = GUID bc6ddedb-5c13-4afb-82b4-682c884a4f66;
 					- Views = { IRPYRawContainer 
@@ -6949,8 +5996,8 @@ if(effectors != null) {
 								}
 							}
 							- _name = "statechartdiagram_0";
-							- _modifiedTimeWeak = 11.22.2013::7:7:44;
-							- _lastModifiedTime = "11.22.2013::7:34:39";
+							- _modifiedTimeWeak = 11.22.2013::8:29:46;
+							- _lastModifiedTime = "11.22.2013::8:29:49";
 							- _graphicChart = { CGIStateChart 
 								- _id = GUID cc28f941-1979-4912-b989-5bc0e5f74116;
 								- m_type = 0;
@@ -8442,7 +7489,7 @@ if(effectors != null) {
 									- m_targetType = 'T';
 									- m_direction = ' ';
 									- m_rpn = { CGIText 
-										- m_str = "MoveControllerE/requests.add(0, params.level)";
+										- m_str = "MoveControllerE[fl.get(hc.level).isOverloaded == false && fl.get(hc.level).areDoorsOpened == false]/requests.add(0, params.level)";
 										- m_style = "Arial" 10 0 0 0 1 ;
 										- m_color = { IColor 
 											- m_fgColor = 0;
@@ -10568,9 +9615,9 @@ if(effectors != null) {
 			- _id = GUID 33dfe780-1e75-49ee-9e55-834dc5fafe51;
 			- _myState = 8192;
 			- _name = "HeightController";
-			- _modifiedTimeWeak = 11.22.2013::7:35:28;
+			- _modifiedTimeWeak = 11.22.2013::8:40:22;
 			- _lastID = 5;
-			- weakCGTime = 11.22.2013::7:35:28;
+			- weakCGTime = 11.22.2013::8:40:22;
 			- strongCGTime = 11.16.2013::23:52:15;
 			- Operations = { IRPYRawContainer 
 				- size = 4;
@@ -10635,7 +9682,7 @@ if(effectors != null) {
 					- _id = GUID 6d66c566-571a-45a4-8009-d7837533f875;
 					- _myState = 8192;
 					- _name = "level";
-					- _modifiedTimeWeak = 11.22.2013::7:35:28;
+					- _modifiedTimeWeak = 11.22.2013::8:40:22;
 					- _typeOf = { IHandle 
 						- _m2Class = "IType";
 						- _filename = "PredefinedTypesJava.sbs";
@@ -12588,9 +11635,9 @@ if(effectors != null) {
 			- _id = GUID 7270c741-82dd-4d79-a637-77a3d1fb86d5;
 			- _myState = 8192;
 			- _name = "Floor";
-			- _modifiedTimeWeak = 11.21.2013::22:41:7;
+			- _modifiedTimeWeak = 11.22.2013::8:27:57;
 			- _lastID = 2;
-			- weakCGTime = 11.21.2013::22:41:7;
+			- weakCGTime = 11.22.2013::8:27:57;
 			- strongCGTime = 11.17.2013::0:24:32;
 			- Attrs = { IRPYRawContainer 
 				- size = 2;
@@ -12599,7 +11646,7 @@ if(effectors != null) {
 					- _id = GUID 4f687f5e-2c5b-4b5e-9c7d-50b386dd3e13;
 					- _myState = 8192;
 					- _name = "areDoorsOpened";
-					- _modifiedTimeWeak = 11.21.2013::22:41:7;
+					- _modifiedTimeWeak = 11.22.2013::8:27:57;
 					- _typeOf = { IHandle 
 						- _m2Class = "IType";
 						- _filename = "PredefinedTypesJava.sbs";
@@ -12618,7 +11665,7 @@ if(effectors != null) {
 					- _id = GUID bc9014f7-0777-42e4-ab56-27615c6fc983;
 					- _myState = 8192;
 					- _name = "isOverloaded";
-					- _modifiedTimeWeak = 11.21.2013::22:41:7;
+					- _modifiedTimeWeak = 11.22.2013::8:27:54;
 					- _typeOf = { IHandle 
 						- _m2Class = "IType";
 						- _filename = "PredefinedTypesJava.sbs";

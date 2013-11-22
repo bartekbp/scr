@@ -5,13 +5,13 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 	}
 	- isLoadOnDemand = 0;
 	- myViewsWithID = { IRPYRawContainer 
-		- size = 8;
+		- size = 7;
 		- value = 
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
@@ -30,10 +30,10 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- _name = "BasePanel";
 				- _id = GUID f479aada-9f2e-40c5-a02e-4c8c07d36804;
 			}
-			- _UpLeft = 0 110 ;
-			- _DownRight = 961 349 ;
+			- _UpLeft = 0 0 ;
+			- _DownRight = 1224 529 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 6;
+			- m_nDiagramIndex = 5;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -114,38 +114,10 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- _name = "StatechartDiagram";
 				- _id = GUID bc6ddedb-5c13-4afb-82b4-682c884a4f66;
 			}
-			- _UpLeft = 229 160 ;
-			- _DownRight = 1001 389 ;
+			- _UpLeft = 49 438 ;
+			- _DownRight = 821 667 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 0;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -31;
-				- m_nLeft = 52;
-				- m_nTop = 52;
-				- m_nRight = 810;
-				- m_nBottom = 322;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IStateChartDiagram";
-				- _filename = "Default.sbs";
-				- _subsystem = "Default";
-				- _class = "Engine";
-				- _name = "StatechartDiagram";
-				- _id = GUID 5b0d03ce-8075-4ece-bb19-00ac117cfa59;
-			}
-			- _UpLeft = 30 100 ;
-			- _DownRight = 751 310 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 5;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -206,8 +178,8 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
 				- m_nLength = 44;
-				- m_nFlags = 2;
-				- m_showCmd = 3;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
 				- m_ptMinPositionX = -1;
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
@@ -226,10 +198,10 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- _name = "StandardPanel";
 				- _id = GUID 86e19760-c8d3-4b78-aefd-d9bd4a88f966;
 			}
-			- _UpLeft = 0 14 ;
-			- _DownRight = 1836 808 ;
+			- _UpLeft = 0 0 ;
+			- _DownRight = 1788 373 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 7;
+			- m_nDiagramIndex = 6;
 		}
 	}
 	- _fullName = "C:\\Users\\janiec\\Documents\\SCR\\scr\\Elevator\\Elevator";
