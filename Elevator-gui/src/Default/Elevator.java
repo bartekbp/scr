@@ -4,7 +4,7 @@
 	Component	: exe
 	Configuration 	: DefaultConfig
 	Model Element	: Elevator
-//!	Generated Date	: Thu, 21, Nov 2013 
+//!	Generated Date	: Fri, 22, Nov 2013 
 	File Path	: exe/DefaultConfig/Default/Elevator.java
 *********************************************************************/
 
@@ -716,7 +716,6 @@ public class Elevator implements RiJStateConcept {
             moving = false;
             if(effectors != null) {
             	effectors.debugMessage("Stopped entered");
-            	effectors.moveStop();
             }
             //#]
         }
@@ -1024,7 +1023,10 @@ public class Elevator implements RiJStateConcept {
         public void EmergencyMovingEnter() {
             //#[ state ROOT.WorkingElevator.EmergencyMoving.(Entry) 
             moving = true;
-            hc.gen(new MoveControllerE(0));
+            hc.gen(new MoveControllerE(0));  
+            if(effectors != null) {
+            	effectors.debugMessage("EmergencyMoving entered");
+            }
             //#]
         }
         
@@ -1081,7 +1083,6 @@ public class Elevator implements RiJStateConcept {
             moving = false;    
             if(effectors != null) {
             	effectors.debugMessage("EmergencyStopped entered");
-            	effectors.moveStop();
             }
             
             //#]
@@ -1356,15 +1357,6 @@ public class Elevator implements RiJStateConcept {
         void debugMessage(final String message);
         
         /**
-         * @param desiredLevel
-        */
-        //## operation moveStart(int) 
-        void moveStart(int desiredLevel);
-        
-        //## operation moveStop() 
-        void moveStop();
-        
-        /**
          * @param level
          * @param isRaised
         */
@@ -1377,6 +1369,12 @@ public class Elevator implements RiJStateConcept {
         */
         //## operation overloadAlert(int,boolean) 
         void overloadAlert(int level, boolean isRaised);
+        
+        /**
+         * @param position
+        */
+        //## operation setPosition(double) 
+        void setPosition(double position);
         
     }
 }

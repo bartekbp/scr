@@ -3,9 +3,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID d90e55dd-0cab-4770-8e09-c67348fe3912;
 	- _myState = 8192;
 	- _name = "exe";
-	- _modifiedTimeWeak = 12.15.2010::15:11:22;
+	- _modifiedTimeWeak = 11.21.2013::20:39:30;
 	- m_buildType = Executable;
-	- m_libraries = "";
+	- m_libraries = ".,..\\Elevator-gui\\build\\classes";
 	- m_additionalSources = "";
 	- m_standardHeaders = "";
 	- m_includePath = "";
@@ -125,7 +125,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- SelectedVariants = { IRPYRawContainer 
 		- size = 0;
 	}
-	- weakCGTime = 12.15.2010::15:11:22;
+	- weakCGTime = 11.21.2013::20:39:30;
 	- strongCGTime = 12.15.2010::15:11:22;
 }
 

@@ -4,7 +4,7 @@
 	Component	: exe
 	Configuration 	: DefaultConfig
 	Model Element	: HeightController
-//!	Generated Date	: Thu, 21, Nov 2013 
+//!	Generated Date	: Fri, 22, Nov 2013 
 	File Path	: exe/DefaultConfig/Default/HeightController.java
 *********************************************************************/
 
@@ -29,7 +29,11 @@ public class HeightController implements RiJStateConcept {
     
     protected int desiredLevel;		//## attribute desiredLevel 
     
+    protected final double epsilion = 0.0001;		//## attribute epsilion 
+    
     protected int level;		//## attribute level 
+    
+    protected final int step = 1;		//## attribute step 
     
     protected Elevator el;		//## link el 
     
@@ -113,6 +117,11 @@ public class HeightController implements RiJStateConcept {
     }
     
     //## auto_generated 
+    public final double getEpsilion() {
+        return epsilion;
+    }
+    
+    //## auto_generated 
     public int getLevel() {
         return level;
     }
@@ -120,6 +129,11 @@ public class HeightController implements RiJStateConcept {
     //## auto_generated 
     public void setLevel(int p_level) {
         level = p_level;
+    }
+    
+    //## auto_generated 
+    public final int getStep() {
+        return step;
     }
     
     //## auto_generated 
@@ -469,7 +483,7 @@ public class HeightController implements RiJStateConcept {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             BeforeWaitingForEvent_exit();
             //#[ transition 8 
-            level = level + 1;
+            level = level + step;
             //#]
             MovingDecision_entDef();
             res = RiJStateReactive.TAKE_EVENT_COMPLETE;
@@ -522,7 +536,7 @@ public class HeightController implements RiJStateConcept {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             BeforeWaitingForEvent_exit();
             //#[ transition 7 
-            level = level - 1;
+            level = level - step;
             //#]
             MovingDecision_entDef();
             res = RiJStateReactive.TAKE_EVENT_COMPLETE;
@@ -535,6 +549,11 @@ public class HeightController implements RiJStateConcept {
         
         //## statechart_method 
         public void MovingDecisionEnter() {
+            //#[ state ROOT.MovingDecision.(Entry) 
+            if(el.effectors != null) {
+            	el.effectors.setPosition(level);
+            }
+            //#]
         }
         
         //## statechart_method 
@@ -573,9 +592,12 @@ public class HeightController implements RiJStateConcept {
         public int MovingDecisionTakeNull() {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             //## transition 2 
-            if(desiredLevel == level)
+            if(Math.abs(desiredLevel - level) < epsilion)
                 {
                     MovingDecision_exit();
+                    //#[ transition 2 
+                    desiredLevel = level;
+                    //#]
                     SendEvent_entDef();
                     res = RiJStateReactive.TAKE_EVENT_COMPLETE;
                 }
@@ -585,11 +607,6 @@ public class HeightController implements RiJStateConcept {
                     if(desiredLevel < level)
                         {
                             MovingDecision_exit();
-                            //#[ transition 3 
-                            if(el.effectors!=null) {
-                            	el.effectors.moveStart(level-1);
-                            }
-                            //#]
                             sendaction_5_entDef();
                             res = RiJStateReactive.TAKE_EVENT_COMPLETE;
                         }
@@ -599,11 +616,6 @@ public class HeightController implements RiJStateConcept {
                             if(desiredLevel > level)
                                 {
                                     MovingDecision_exit();
-                                    //#[ transition 4 
-                                    if(el.effectors!=null) {
-                                    	el.effectors.moveStart(level+1);
-                                    }
-                                    //#]
                                     sendaction_6_entDef();
                                     res = RiJStateReactive.TAKE_EVENT_COMPLETE;
                                 }

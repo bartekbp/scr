@@ -63,9 +63,9 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			- _id = GUID 5ed3fccb-101d-4b0c-9df7-527e57d570c5;
 			- _myState = 40960;
 			- _name = "TopLevel";
-			- _modifiedTimeWeak = 9.16.2010::10:45:15;
-			- weakCGTime = 9.16.2010::10:45:15;
-			- strongCGTime = 9.16.2010::10:45:15;
+			- _modifiedTimeWeak = 9.16.2010::10:45:32;
+			- weakCGTime = 9.16.2010::10:45:32;
+			- strongCGTime = 9.16.2010::10:45:32;
 			- _multiplicity = "";
 			- _itsStateChart = { IHandle 
 				- _m2Class = "";

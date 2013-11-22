@@ -3,7 +3,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 	- _id = GUID 0c8283b7-8ceb-4ff1-b6c8-24b29e07e251;
 	- _myState = 8192;
 	- _name = "Elevator";
-	- _modifiedTimeWeak = 11.19.2013::20:17:8;
+	- _modifiedTimeWeak = 11.22.2013::7:37:10;
 	- _lastID = 1;
 	- _UserColors = { IRPYRawContainer 
 		- size = 16;
@@ -232,7 +232,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				}
 			}
 			- _name = "f";
-			- _modifiedTimeWeak = 1.1.1970::1:0:0;
+			- _modifiedTimeWeak = 1.2.1990::0:0:0;
 			- _lastModifiedTime = "11.19.2013::20:18:5";
 			- _graphicChart = { CGIMscChart 
 				- vLadderMargin = 20;
@@ -468,6 +468,31 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				}
 				{ CGIMscConditionMark 
 					- _id = GUID 3d8582e0-8c34-4ed2-88e7-6d7393e0f9a6;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "SequenceDiagram";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Condition_Mark";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "AlignConditionMarksLeft";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 114;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IMessage";
@@ -488,7 +513,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1.14286 0 0 60.8354 0 8212.77 ;
+					- m_transform = 1.14286 0 0 60.8354 0 8213 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 0  0 51  84 51  84 0  ;
 					- m_nNameFormat = 0;
@@ -499,6 +524,31 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				}
 				{ CGIMscConditionMark 
 					- _id = GUID 32a96de4-c99e-44f1-9c7f-177b81ba9459;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "SequenceDiagram";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Condition_Mark";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "AlignConditionMarksLeft";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 114;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IMessage";
@@ -519,7 +569,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1.14286 0 0 60.8354 0 3893.46 ;
+					- m_transform = 1.14286 0 0 60.8354 0 3893 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 0  0 51  84 51  84 0  ;
 					- m_nNameFormat = 0;
@@ -530,6 +580,31 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				}
 				{ CGIMscConditionMark 
 					- _id = GUID c353f95b-6cce-44f3-b7d6-a8efecb522f5;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "SequenceDiagram";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Condition_Mark";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "AlignConditionMarksLeft";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 114;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IMessage";
@@ -561,6 +636,31 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				}
 				{ CGIMscConditionMark 
 					- _id = GUID 0c390db1-9fe5-433e-a82f-7377c38869a7;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "SequenceDiagram";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Condition_Mark";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "AlignConditionMarksLeft";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 114;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IMessage";
@@ -581,7 +681,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1.14286 0 0 93.0423 0 17398.9 ;
+					- m_transform = 1.14286 0 0 93.0423 0 17399 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 0  0 51  84 51  84 0  ;
 					- m_nNameFormat = 0;
@@ -592,6 +692,31 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				}
 				{ CGIMscConditionMark 
 					- _id = GUID ae57b0ae-1e05-44fc-80f1-803a964d2c48;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "SequenceDiagram";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Condition_Mark";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "AlignConditionMarksLeft";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 114;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IMessage";
@@ -612,7 +737,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1.14286 0 0 93.0423 0 23360.8 ;
+					- m_transform = 1.14286 0 0 93.0423 0 23361 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 0  0 51  84 51  84 0  ;
 					- m_nNameFormat = 0;
@@ -623,6 +748,31 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 				}
 				{ CGIMscConditionMark 
 					- _id = GUID 1d067a98-bad3-49de-b8a3-850702c05721;
+					- _properties = { IPropertyContainer 
+						- Subjects = { IRPYRawContainer 
+							- size = 1;
+							- value = 
+							{ IPropertySubject 
+								- _Name = "SequenceDiagram";
+								- Metaclasses = { IRPYRawContainer 
+									- size = 1;
+									- value = 
+									{ IPropertyMetaclass 
+										- _Name = "Condition_Mark";
+										- Properties = { IRPYRawContainer 
+											- size = 1;
+											- value = 
+											{ IProperty 
+												- _Name = "AlignConditionMarksLeft";
+												- _Value = "True";
+												- _Type = Bool;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 					- m_type = 114;
 					- m_pModelObject = { IHandle 
 						- _m2Class = "IMessage";
@@ -643,7 +793,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- m_nOrientationCtrlPt = 8;
 					}
 					- m_drawBehavior = 4096;
-					- m_transform = 1.14286 0 0 60.8354 0 29322.6 ;
+					- m_transform = 1.14286 0 0 60.8354 0 29323 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_polygon = 4 0 0  0 51  84 51  84 0  ;
 					- m_nNameFormat = 0;
@@ -909,14 +1059,14 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 			}
 			- m_pICollaboration = { ICollaboration 
 				- _id = GUID aa4e397d-4c19-4f5b-8d9c-3f3e95412eca;
-				- _modifiedTimeWeak = 1.1.1970::1:0:0;
+				- _modifiedTimeWeak = 1.2.1990::0:0:0;
 				- ClassifierRoles = { IRPYRawContainer 
 					- size = 4;
 					- value = 
 					{ IClassifierRole 
 						- _id = GUID 0a699d65-0a7c-49c9-8ec4-d44fcef233e4;
 						- _name = "Elevator[0]";
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- m_eRoleType = CLASS;
 						- m_pBase = { IHandle 
 							- _m2Class = "IClass";
@@ -933,7 +1083,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					{ IClassifierRole 
 						- _id = GUID a8dfc413-d4b2-437c-99b6-e9773e0586a3;
 						- _name = "Elevator[0]->dc";
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- m_eRoleType = CLASS;
 						- m_pBase = { IHandle 
 							- _m2Class = "IClass";
@@ -950,7 +1100,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					{ IClassifierRole 
 						- _id = GUID b9e6286f-c13c-45c3-b45f-6594924f8939;
 						- _name = "Elevator[0]->dh";
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- m_eRoleType = CLASS;
 						- m_pBase = { IHandle 
 							- _m2Class = "IClass";
@@ -967,7 +1117,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 					{ IClassifierRole 
 						- _id = GUID c17b7779-3b6a-40cb-9c45-e4f587f5ef40;
 						- _name = "Elevator[0]->fl[0]";
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- m_eRoleType = CLASS;
 						- m_pBase = { IHandle 
 							- _m2Class = "IClass";
@@ -1013,7 +1163,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 							}
 						}
 						- _name = "connector";
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- m_szSequence = "";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -1068,7 +1218,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 							}
 						}
 						- _name = "connector";
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- m_szSequence = "";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -1099,7 +1249,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- _id = GUID 1b22ff79-6e2d-4855-b679-c0dff9dcbea5;
 						- _myState = 8192;
 						- _name = "DoorsOpenedController";
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- m_szSequence = "1.";
 						- m_szActualArgs = "areOpened = false";
 						- m_szReturnVal = "";
@@ -1134,7 +1284,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- _id = GUID 76e6eb97-e22e-44f0-8764-08cdf975090f;
 						- _myState = 8192;
 						- _name = "DoorsOpened";
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- m_szSequence = "2.";
 						- m_szActualArgs = "level = 1, areOpened = true";
 						- m_szReturnVal = "";
@@ -1193,7 +1343,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 							}
 						}
 						- _name = "connector";
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- m_szSequence = "";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -1248,7 +1398,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 							}
 						}
 						- _name = "connector";
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- m_szSequence = "";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -1303,7 +1453,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 							}
 						}
 						- _name = "connector";
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- m_szSequence = "";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -1358,7 +1508,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 							}
 						}
 						- _name = "connector";
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- m_szSequence = "";
 						- m_szActualArgs = "";
 						- m_szReturnVal = "";
@@ -1389,7 +1539,7 @@ I-Logix-RPY-Archive version 8.8.0 Java 6107223
 						- _id = GUID c2e5b8d8-2bd4-4184-a8c2-9be6d315d1a9;
 						- _myState = 8192;
 						- _name = "DoorsOpenedController";
-						- _modifiedTimeWeak = 1.1.1970::1:0:0;
+						- _modifiedTimeWeak = 1.2.1990::0:0:0;
 						- m_szSequence = "3.";
 						- m_szActualArgs = "areOpened = true";
 						- m_szReturnVal = "";

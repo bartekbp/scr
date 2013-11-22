@@ -5,7 +5,7 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 	}
 	- isLoadOnDemand = 0;
 	- myViewsWithID = { IRPYRawContainer 
-		- size = 6;
+		- size = 8;
 		- value = 
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -16,10 +16,10 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
 				- m_ptMaxPositionY = -31;
-				- m_nLeft = -59;
-				- m_nTop = 0;
-				- m_nRight = 1319;
-				- m_nBottom = 338;
+				- m_nLeft = 52;
+				- m_nTop = 52;
+				- m_nRight = 810;
+				- m_nBottom = 291;
 			}
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
@@ -30,10 +30,10 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- _name = "BasePanel";
 				- _id = GUID f479aada-9f2e-40c5-a02e-4c8c07d36804;
 			}
-			- _UpLeft = 372 412 ;
-			- _DownRight = 1726 693 ;
+			- _UpLeft = 0 110 ;
+			- _DownRight = 961 349 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 5;
+			- m_nDiagramIndex = 6;
 		}
 		{ CGEMdiDiagramParams 
 			- _placement = { CCommon_WINDOWPLACEMENT 
@@ -44,50 +44,22 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
 				- m_ptMaxPositionY = -31;
-				- m_nLeft = 26;
-				- m_nTop = 26;
-				- m_nRight = 863;
-				- m_nBottom = 322;
+				- m_nLeft = 104;
+				- m_nTop = 104;
+				- m_nRight = 862;
+				- m_nBottom = 343;
 			}
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
 				- _m2Class = "IStateChartDiagram";
 				- _filename = "Default.sbs";
 				- _subsystem = "Default";
-				- _class = "BringHereHandler";
+				- _class = "DoorsController";
 				- _name = "StatechartDiagram";
-				- _id = GUID dbf3261e-f6cc-41de-841a-53236f4dd405;
+				- _id = GUID 2ebd1714-eb41-4adc-95b5-099cc153221a;
 			}
-			- _UpLeft = 0 90 ;
-			- _DownRight = 800 326 ;
-			- _instanceName = "";
-			- m_nDiagramIndex = 0;
-		}
-		{ CGEMdiDiagramParams 
-			- _placement = { CCommon_WINDOWPLACEMENT 
-				- m_nLength = 44;
-				- m_nFlags = 0;
-				- m_showCmd = 1;
-				- m_ptMinPositionX = -1;
-				- m_ptMinPositionY = -1;
-				- m_ptMaxPositionX = -8;
-				- m_ptMaxPositionY = -31;
-				- m_nLeft = 26;
-				- m_nTop = 26;
-				- m_nRight = 863;
-				- m_nBottom = 322;
-			}
-			- _wasOpenedOnCloseProject = 1;
-			- _theDiagram = { IHandle 
-				- _m2Class = "IStateChartDiagram";
-				- _filename = "Default.sbs";
-				- _subsystem = "Default";
-				- _class = "DoorsOpenedHandler";
-				- _name = "StatechartDiagram";
-				- _id = GUID d954d1da-b5eb-453b-9d1b-ff94fd2670cd;
-			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 800 236 ;
+			- _UpLeft = 0 60 ;
+			- _DownRight = 721 239 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 3;
 		}
@@ -100,22 +72,22 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
 				- m_ptMaxPositionY = -31;
-				- m_nLeft = 130;
-				- m_nTop = 130;
-				- m_nRight = 967;
-				- m_nBottom = 426;
+				- m_nLeft = 26;
+				- m_nTop = 26;
+				- m_nRight = 810;
+				- m_nBottom = 257;
 			}
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
 				- _m2Class = "IStateChartDiagram";
 				- _filename = "Default.sbs";
 				- _subsystem = "Default";
-				- _class = "LoadController";
+				- _class = "DoorsOpenedHandler";
 				- _name = "StatechartDiagram";
-				- _id = GUID 46f12a95-0d1b-4114-a579-8b292894847e;
+				- _id = GUID d954d1da-b5eb-453b-9d1b-ff94fd2670cd;
 			}
 			- _UpLeft = 0 0 ;
-			- _DownRight = 800 236 ;
+			- _DownRight = 747 171 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 2;
 		}
@@ -128,22 +100,106 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- m_ptMinPositionY = -1;
 				- m_ptMaxPositionX = -8;
 				- m_ptMaxPositionY = -31;
-				- m_nLeft = 0;
-				- m_nTop = 0;
-				- m_nRight = 837;
-				- m_nBottom = 296;
+				- m_nLeft = 26;
+				- m_nTop = 26;
+				- m_nRight = 835;
+				- m_nBottom = 315;
 			}
 			- _wasOpenedOnCloseProject = 1;
 			- _theDiagram = { IHandle 
 				- _m2Class = "IStateChartDiagram";
 				- _filename = "Default.sbs";
 				- _subsystem = "Default";
-				- _class = "LoadHandler";
+				- _class = "Elevator";
 				- _name = "StatechartDiagram";
-				- _id = GUID b456be52-cfe3-460f-b588-31ac93b83b53;
+				- _id = GUID bc6ddedb-5c13-4afb-82b4-682c884a4f66;
 			}
-			- _UpLeft = 0 0 ;
-			- _DownRight = 800 236 ;
+			- _UpLeft = 229 160 ;
+			- _DownRight = 1001 389 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 0;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 52;
+				- m_nTop = 52;
+				- m_nRight = 810;
+				- m_nBottom = 322;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStateChartDiagram";
+				- _filename = "Default.sbs";
+				- _subsystem = "Default";
+				- _class = "Engine";
+				- _name = "StatechartDiagram";
+				- _id = GUID 5b0d03ce-8075-4ece-bb19-00ac117cfa59;
+			}
+			- _UpLeft = 30 100 ;
+			- _DownRight = 751 310 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 5;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 78;
+				- m_nTop = 78;
+				- m_nRight = 836;
+				- m_nBottom = 348;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStateChartDiagram";
+				- _filename = "Default.sbs";
+				- _subsystem = "Default";
+				- _class = "HeightController";
+				- _name = "StatechartDiagram";
+				- _id = GUID 1b1feb20-331f-4a08-97f3-7dd21edb74ca;
+			}
+			- _UpLeft = 0 241 ;
+			- _DownRight = 721 451 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 4;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -8;
+				- m_ptMaxPositionY = -31;
+				- m_nLeft = 52;
+				- m_nTop = 52;
+				- m_nRight = 836;
+				- m_nBottom = 283;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IStateChartDiagram";
+				- _filename = "Default.sbs";
+				- _subsystem = "Default";
+				- _class = "MoveHandler";
+				- _name = "StatechartDiagram";
+				- _id = GUID 8b8876c7-1238-47bf-881d-f9b1e9f95acd;
+			}
+			- _UpLeft = 101 0 ;
+			- _DownRight = 689 135 ;
 			- _instanceName = "";
 			- m_nDiagramIndex = 1;
 		}
@@ -170,10 +226,10 @@ I-Logix-RPY-Archive version 8.8.0 * 6107223
 				- _name = "StandardPanel";
 				- _id = GUID 86e19760-c8d3-4b78-aefd-d9bd4a88f966;
 			}
-			- _UpLeft = 249 290 ;
-			- _DownRight = 1195 612 ;
+			- _UpLeft = 0 14 ;
+			- _DownRight = 1836 808 ;
 			- _instanceName = "";
-			- m_nDiagramIndex = 4;
+			- m_nDiagramIndex = 7;
 		}
 	}
 	- _fullName = "C:\\Users\\janiec\\Documents\\SCR\\scr\\Elevator\\Elevator";
