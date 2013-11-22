@@ -82,7 +82,7 @@ public class ElevatorPanel extends JPanel {
         public void mouseExited(MouseEvent e) {
         }
     }
-    
+    /*
     class MoveController extends Thread {
         private static final int MOVE_TIME = 3000;
         private static final int STEPS = 11;
@@ -119,7 +119,7 @@ public class ElevatorPanel extends JPanel {
         }        
     }
     
-    private MoveController controller;
+    private MoveController controller;*/
 
     public ElevatorPanel() {
         elevatorPosition = 0;
@@ -134,22 +134,10 @@ public class ElevatorPanel extends JPanel {
         getParent().repaint();
     }
     
-    public void startMove(int desiredLevel) {
-        if(controller != null) {
-            stopMove();
-        }
-        int end = desiredLevel * LEVEL_H;
-        controller = new MoveController(elevatorPosition, end);
-        controller.start();
+    public void setPosition(double position) {
+        setElevatorPosition((int)(position * LEVEL_H));
     }
     
-    public void stopMove(){
-        if(controller != null) {
-            controller.working.set(false);
-            controller = null;
-        }
-    }    
-
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);

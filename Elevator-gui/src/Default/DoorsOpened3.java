@@ -4,7 +4,7 @@
 	Component	: exe
 	Configuration 	: DefaultConfig
 	Model Element	: DoorsOpened3
-//!	Generated Date	: Thu, 21, Nov 2013 
+//!	Generated Date	: Fri, 22, Nov 2013 
 	File Path	: exe/DefaultConfig/Default/DoorsOpened3.java
 *********************************************************************/
 
@@ -23,7 +23,7 @@ import com.ibm.rational.rhapsody.oxf.RiJEvent;
 //## event DoorsOpened3() 
 public class DoorsOpened3 extends RiJEvent {
     
-    public static final int DoorsOpened3_Default_id = 18641;		//## ignore 
+    public static final int DoorsOpened3_Default_id = 18637;		//## ignore 
     
     
     // Constructors

@@ -35,15 +35,9 @@ public class Effectors implements Default.Elevator.ElevatorsEffectors {
         LOGGER.log(Level.INFO, message);
     }
 
-
     @Override
-    public void moveStop() {
-        ElevatorGui.moveStop();
-    }
-
-    @Override
-    public void moveStart(int desiredLevel) {
-        ElevatorGui.moveStart(desiredLevel);
+    public void setPosition(double position) {
+        ElevatorGui.setPosition(position);
     }
 
 }

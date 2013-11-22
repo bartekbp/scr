@@ -4,7 +4,7 @@
 	Component	: exe
 	Configuration 	: DefaultConfig
 	Model Element	: ReadyController
-//!	Generated Date	: Thu, 21, Nov 2013 
+//!	Generated Date	: Fri, 22, Nov 2013 
 	File Path	: exe/DefaultConfig/Default/ReadyController.java
 *********************************************************************/
 
@@ -205,7 +205,7 @@ public class ReadyController implements RiJStateConcept {
             Ready params = (Ready) event;
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             //#[ transition 1 
-            if(el.hc.level == params.level) {
+            if(el.hc.getLevel() == params.level) {
             	el.gen(new ReadyControllerE());
             }
             //#]

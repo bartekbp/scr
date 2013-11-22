@@ -219,7 +219,7 @@ public class Engine implements RiJStateConcept {
         
         //## statechart_method 
         public void accepteventaction_2Enter() {
-            itsRiJThread.schedTimeout(3000, Engine_Timeout_accepteventaction_2_id, this, null);
+            itsRiJThread.schedTimeout(200, Engine_Timeout_accepteventaction_2_id, this, null);
         }
         
         //## statechart_method 
@@ -235,7 +235,7 @@ public class Engine implements RiJStateConcept {
         
         //## statechart_method 
         public void accepteventaction_1Enter() {
-            itsRiJThread.schedTimeout(3000, Engine_Timeout_accepteventaction_1_id, this, null);
+            itsRiJThread.schedTimeout(200, Engine_Timeout_accepteventaction_1_id, this, null);
         }
         
         //## statechart_method 

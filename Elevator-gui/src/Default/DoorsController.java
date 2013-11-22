@@ -4,7 +4,7 @@
 	Component	: exe
 	Configuration 	: DefaultConfig
 	Model Element	: DoorsController
-//!	Generated Date	: Thu, 21, Nov 2013 
+//!	Generated Date	: Fri, 22, Nov 2013 
 	File Path	: exe/DefaultConfig/Default/DoorsController.java
 *********************************************************************/
 
@@ -231,7 +231,10 @@ public class DoorsController implements RiJStateConcept {
             DoorsOpened params = (DoorsOpened) event;
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             //#[ transition 1 
-            int level = el.hc.level;
+            if(el.effectors != null) {
+            	el.effectors.debugMessage("doors open");
+            }
+            int level = el.hc.getLevel();
             if((level == params.level) && !el.moving) {
             	el.gen(new DoorsOpenedController(params.areOpened));
             } else {

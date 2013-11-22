@@ -31,9 +31,9 @@ public class HeightController implements RiJStateConcept {
     
     protected final double epsilion = 0.0001;		//## attribute epsilion 
     
-    protected int level;		//## attribute level 
+    protected double level;		//## attribute level 
     
-    protected final int step = 1;		//## attribute step 
+    protected final double step = 1.0/16.0;		//## attribute step 
     
     protected Elevator el;		//## link el 
     
@@ -106,6 +106,19 @@ public class HeightController implements RiJStateConcept {
         initRelations(p_thread);
     }
     
+    //## TriggeredOperation Stop() 
+    public void Stop() {
+        Stop_HeightController_Event triggerEvent = new Stop_HeightController_Event();
+        reactive.takeTrigger(triggerEvent);
+    }
+    
+    //## operation getLevel() 
+    public int getLevel() {
+        //#[ operation getLevel() 
+        return (int)(level + epsilion);
+        //#]
+    }
+    
     //## auto_generated 
     public int getDesiredLevel() {
         return desiredLevel;
@@ -122,17 +135,12 @@ public class HeightController implements RiJStateConcept {
     }
     
     //## auto_generated 
-    public int getLevel() {
-        return level;
-    }
-    
-    //## auto_generated 
-    public void setLevel(int p_level) {
+    public void setLevel(double p_level) {
         level = p_level;
     }
     
     //## auto_generated 
-    public final int getStep() {
+    public final double getStep() {
         return step;
     }
     
@@ -596,7 +604,7 @@ public class HeightController implements RiJStateConcept {
                 {
                     MovingDecision_exit();
                     //#[ transition 2 
-                    desiredLevel = level;
+                    level = desiredLevel;
                     //#]
                     SendEvent_entDef();
                     res = RiJStateReactive.TAKE_EVENT_COMPLETE;
@@ -604,7 +612,7 @@ public class HeightController implements RiJStateConcept {
             else
                 {
                     //## transition 3 
-                    if(desiredLevel < level)
+                    if(el.moving && desiredLevel < level)
                         {
                             MovingDecision_exit();
                             sendaction_5_entDef();
@@ -613,7 +621,7 @@ public class HeightController implements RiJStateConcept {
                     else
                         {
                             //## transition 4 
-                            if(desiredLevel > level)
+                            if(el.moving && desiredLevel > level)
                                 {
                                     MovingDecision_exit();
                                     sendaction_6_entDef();
@@ -667,6 +675,18 @@ public class HeightController implements RiJStateConcept {
         }
         
     }
+}
+//## ignore 
+class Stop_HeightController_Event extends RiJEvent {
+    
+    public static final int Stop_HeightController_Event_id = 31000;
+    
+    // Constructors
+    
+    public  Stop_HeightController_Event() {
+        lId = Stop_HeightController_Event_id;
+    }
+    
 }
 /*********************************************************************
 	File Path	: exe/DefaultConfig/Default/HeightController.java

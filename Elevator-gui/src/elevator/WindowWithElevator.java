@@ -36,15 +36,11 @@ public class WindowWithElevator extends javax.swing.JFrame {
         jPanel22 = new javax.swing.JPanel();
         jPanel23 = new javax.swing.JPanel();
         filler40 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
-        jLabel12 = new javax.swing.JLabel();
         filler41 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
-        jLabel13 = new javax.swing.JLabel();
         filler42 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
         jPanel24 = new javax.swing.JPanel();
         filler43 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
-        jLabel14 = new javax.swing.JLabel();
         filler44 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
-        jLabel15 = new javax.swing.JLabel();
         filler45 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
         jPanel25 = new javax.swing.JPanel();
         filler46 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
@@ -65,15 +61,11 @@ public class WindowWithElevator extends javax.swing.JFrame {
         jPanel30 = new javax.swing.JPanel();
         jPanel31 = new javax.swing.JPanel();
         filler47 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
-        jLabel16 = new javax.swing.JLabel();
         filler48 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
-        jLabel17 = new javax.swing.JLabel();
         filler52 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
         jPanel32 = new javax.swing.JPanel();
         filler54 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
-        jLabel18 = new javax.swing.JLabel();
         filler55 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
-        jLabel19 = new javax.swing.JLabel();
         filler56 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
         jPanel33 = new javax.swing.JPanel();
         filler58 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
@@ -94,15 +86,11 @@ public class WindowWithElevator extends javax.swing.JFrame {
         jPanel38 = new javax.swing.JPanel();
         jPanel39 = new javax.swing.JPanel();
         filler64 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
-        jLabel20 = new javax.swing.JLabel();
         filler65 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
-        jLabel21 = new javax.swing.JLabel();
         filler66 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
         jPanel40 = new javax.swing.JPanel();
         filler67 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
-        jLabel22 = new javax.swing.JLabel();
         filler68 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
-        jLabel23 = new javax.swing.JLabel();
         filler69 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
         jPanel41 = new javax.swing.JPanel();
         filler70 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
@@ -121,18 +109,6 @@ public class WindowWithElevator extends javax.swing.JFrame {
         jPanel3 = new javax.swing.JPanel();
         jPanel45 = new javax.swing.JPanel();
         jPanel46 = new javax.swing.JPanel();
-        jPanel47 = new javax.swing.JPanel();
-        filler76 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
-        jLabel24 = new javax.swing.JLabel();
-        filler77 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
-        jLabel25 = new javax.swing.JLabel();
-        filler78 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
-        jPanel48 = new javax.swing.JPanel();
-        filler79 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
-        jLabel26 = new javax.swing.JLabel();
-        filler80 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
-        jLabel27 = new javax.swing.JLabel();
-        filler81 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
         jPanel49 = new javax.swing.JPanel();
         jPanel55 = new javax.swing.JPanel();
         filler86 = new javax.swing.Box.Filler(new java.awt.Dimension(0, 0), new java.awt.Dimension(0, 0), new java.awt.Dimension(32767, 0));
@@ -165,7 +141,7 @@ public class WindowWithElevator extends javax.swing.JFrame {
         );
         elevatorPanel1Layout.setVerticalGroup(
             elevatorPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 467, Short.MAX_VALUE)
+            .addGap(0, 446, Short.MAX_VALUE)
         );
 
         jPanel2.setLayout(new javax.swing.BoxLayout(jPanel2, javax.swing.BoxLayout.Y_AXIS));
@@ -176,48 +152,19 @@ public class WindowWithElevator extends javax.swing.JFrame {
 
         jPanel22.setLayout(new javax.swing.BoxLayout(jPanel22, javax.swing.BoxLayout.PAGE_AXIS));
 
-        jPanel23.setMaximumSize(new java.awt.Dimension(98481, 20));
+        jPanel23.setMaximumSize(new java.awt.Dimension(98481, 40));
         jPanel23.setMinimumSize(new java.awt.Dimension(100, 20));
         jPanel23.setPreferredSize(new java.awt.Dimension(100, 20));
         jPanel23.setLayout(new javax.swing.BoxLayout(jPanel23, javax.swing.BoxLayout.LINE_AXIS));
         jPanel23.add(filler40);
-
-        jLabel12.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel12.setText("o");
-        jLabel12.setMaximumSize(new java.awt.Dimension(90, 90));
-        jLabel12.setMinimumSize(new java.awt.Dimension(10, 10));
-        jLabel12.setOpaque(true);
-        jLabel12.setPreferredSize(new java.awt.Dimension(10, 10));
-        jPanel23.add(jLabel12);
         jPanel23.add(filler41);
-
-        jLabel13.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel13.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel13.setText("o");
-        jLabel13.setFocusable(false);
-        jLabel13.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel13.setMaximumSize(new java.awt.Dimension(90, 90));
-        jLabel13.setMinimumSize(new java.awt.Dimension(10, 10));
-        jLabel13.setPreferredSize(new java.awt.Dimension(10, 10));
-        jPanel23.add(jLabel13);
         jPanel23.add(filler42);
 
         jPanel22.add(jPanel23);
 
         jPanel24.setLayout(new javax.swing.BoxLayout(jPanel24, javax.swing.BoxLayout.LINE_AXIS));
         jPanel24.add(filler43);
-
-        jLabel14.setFont(new java.awt.Font("Batang", 0, 12)); // NOI18N
-        jLabel14.setText("Doors Open");
-        jPanel24.add(jLabel14);
         jPanel24.add(filler44);
-
-        jLabel15.setFont(new java.awt.Font("Batang", 0, 12)); // NOI18N
-        jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel15.setText("Overload");
-        jLabel15.setMaximumSize(new java.awt.Dimension(75, 20));
-        jPanel24.add(jLabel15);
         jPanel24.add(filler45);
 
         jPanel22.add(jPanel24);
@@ -313,43 +260,14 @@ public class WindowWithElevator extends javax.swing.JFrame {
         jPanel31.setPreferredSize(new java.awt.Dimension(100, 20));
         jPanel31.setLayout(new javax.swing.BoxLayout(jPanel31, javax.swing.BoxLayout.LINE_AXIS));
         jPanel31.add(filler47);
-
-        jLabel16.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel16.setText("o");
-        jLabel16.setMaximumSize(new java.awt.Dimension(90, 90));
-        jLabel16.setMinimumSize(new java.awt.Dimension(10, 10));
-        jLabel16.setOpaque(true);
-        jLabel16.setPreferredSize(new java.awt.Dimension(10, 10));
-        jPanel31.add(jLabel16);
         jPanel31.add(filler48);
-
-        jLabel17.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel17.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel17.setText("o");
-        jLabel17.setFocusable(false);
-        jLabel17.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel17.setMaximumSize(new java.awt.Dimension(90, 90));
-        jLabel17.setMinimumSize(new java.awt.Dimension(10, 10));
-        jLabel17.setPreferredSize(new java.awt.Dimension(10, 10));
-        jPanel31.add(jLabel17);
         jPanel31.add(filler52);
 
         jPanel30.add(jPanel31);
 
         jPanel32.setLayout(new javax.swing.BoxLayout(jPanel32, javax.swing.BoxLayout.LINE_AXIS));
         jPanel32.add(filler54);
-
-        jLabel18.setFont(new java.awt.Font("Batang", 0, 12)); // NOI18N
-        jLabel18.setText("Doors Open");
-        jPanel32.add(jLabel18);
         jPanel32.add(filler55);
-
-        jLabel19.setFont(new java.awt.Font("Batang", 0, 12)); // NOI18N
-        jLabel19.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel19.setText("Overload");
-        jLabel19.setMaximumSize(new java.awt.Dimension(75, 20));
-        jPanel32.add(jLabel19);
         jPanel32.add(filler56);
 
         jPanel30.add(jPanel32);
@@ -444,43 +362,14 @@ public class WindowWithElevator extends javax.swing.JFrame {
         jPanel39.setPreferredSize(new java.awt.Dimension(100, 20));
         jPanel39.setLayout(new javax.swing.BoxLayout(jPanel39, javax.swing.BoxLayout.LINE_AXIS));
         jPanel39.add(filler64);
-
-        jLabel20.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel20.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel20.setText("o");
-        jLabel20.setMaximumSize(new java.awt.Dimension(90, 90));
-        jLabel20.setMinimumSize(new java.awt.Dimension(10, 10));
-        jLabel20.setOpaque(true);
-        jLabel20.setPreferredSize(new java.awt.Dimension(10, 10));
-        jPanel39.add(jLabel20);
         jPanel39.add(filler65);
-
-        jLabel21.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel21.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel21.setText("o");
-        jLabel21.setFocusable(false);
-        jLabel21.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel21.setMaximumSize(new java.awt.Dimension(90, 90));
-        jLabel21.setMinimumSize(new java.awt.Dimension(10, 10));
-        jLabel21.setPreferredSize(new java.awt.Dimension(10, 10));
-        jPanel39.add(jLabel21);
         jPanel39.add(filler66);
 
         jPanel38.add(jPanel39);
 
         jPanel40.setLayout(new javax.swing.BoxLayout(jPanel40, javax.swing.BoxLayout.LINE_AXIS));
         jPanel40.add(filler67);
-
-        jLabel22.setFont(new java.awt.Font("Batang", 0, 12)); // NOI18N
-        jLabel22.setText("Doors Open");
-        jPanel40.add(jLabel22);
         jPanel40.add(filler68);
-
-        jLabel23.setFont(new java.awt.Font("Batang", 0, 12)); // NOI18N
-        jLabel23.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel23.setText("Overload");
-        jLabel23.setMaximumSize(new java.awt.Dimension(75, 20));
-        jPanel40.add(jLabel23);
         jPanel40.add(filler69);
 
         jPanel38.add(jPanel40);
@@ -570,55 +459,6 @@ public class WindowWithElevator extends javax.swing.JFrame {
         jPanel45.setLayout(new javax.swing.BoxLayout(jPanel45, javax.swing.BoxLayout.PAGE_AXIS));
 
         jPanel46.setLayout(new javax.swing.BoxLayout(jPanel46, javax.swing.BoxLayout.PAGE_AXIS));
-
-        jPanel47.setMaximumSize(new java.awt.Dimension(98481, 20));
-        jPanel47.setMinimumSize(new java.awt.Dimension(180, 20));
-        jPanel47.setPreferredSize(new java.awt.Dimension(200, 20));
-        jPanel47.setLayout(new javax.swing.BoxLayout(jPanel47, javax.swing.BoxLayout.LINE_AXIS));
-        jPanel47.add(filler76);
-
-        jLabel24.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel24.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel24.setText("o");
-        jLabel24.setMaximumSize(new java.awt.Dimension(90, 90));
-        jLabel24.setMinimumSize(new java.awt.Dimension(10, 10));
-        jLabel24.setOpaque(true);
-        jLabel24.setPreferredSize(new java.awt.Dimension(20, 20));
-        jLabel24.setVerticalTextPosition(javax.swing.SwingConstants.TOP);
-        jPanel47.add(jLabel24);
-        jPanel47.add(filler77);
-
-        jLabel25.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jLabel25.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel25.setText("o");
-        jLabel25.setFocusable(false);
-        jLabel25.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jLabel25.setMaximumSize(new java.awt.Dimension(90, 90));
-        jLabel25.setMinimumSize(new java.awt.Dimension(10, 10));
-        jLabel25.setPreferredSize(new java.awt.Dimension(10, 10));
-        jPanel47.add(jLabel25);
-        jPanel47.add(filler78);
-
-        jPanel46.add(jPanel47);
-
-        jPanel48.setMaximumSize(new java.awt.Dimension(98445, 20));
-        jPanel48.setLayout(new javax.swing.BoxLayout(jPanel48, javax.swing.BoxLayout.LINE_AXIS));
-        jPanel48.add(filler79);
-
-        jLabel26.setFont(new java.awt.Font("Batang", 0, 12)); // NOI18N
-        jLabel26.setText("Doors Open");
-        jPanel48.add(jLabel26);
-        jPanel48.add(filler80);
-
-        jLabel27.setFont(new java.awt.Font("Batang", 0, 12)); // NOI18N
-        jLabel27.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel27.setText("Overload");
-        jLabel27.setMaximumSize(new java.awt.Dimension(75, 80));
-        jPanel48.add(jLabel27);
-        jPanel48.add(filler81);
-
-        jPanel46.add(jPanel48);
-
         jPanel45.add(jPanel46);
 
         jPanel3.add(jPanel45);
@@ -750,13 +590,11 @@ public class WindowWithElevator extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 572, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 498, javax.swing.GroupLayout.PREFERRED_SIZE)
             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup()
                     .addComponent(elevatorPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(0, 105, Short.MAX_VALUE)))
+                    .addGap(0, 52, Short.MAX_VALUE)))
         );
 
         pack();
@@ -949,12 +787,6 @@ public class WindowWithElevator extends javax.swing.JFrame {
     private javax.swing.Box.Filler filler71;
     private javax.swing.Box.Filler filler74;
     private javax.swing.Box.Filler filler75;
-    private javax.swing.Box.Filler filler76;
-    private javax.swing.Box.Filler filler77;
-    private javax.swing.Box.Filler filler78;
-    private javax.swing.Box.Filler filler79;
-    private javax.swing.Box.Filler filler80;
-    private javax.swing.Box.Filler filler81;
     private javax.swing.Box.Filler filler82;
     private javax.swing.Box.Filler filler83;
     private javax.swing.Box.Filler filler84;
@@ -991,22 +823,6 @@ public class WindowWithElevator extends javax.swing.JFrame {
     private javax.swing.JButton jButton49;
     private javax.swing.JButton jButton50;
     private javax.swing.JButton jButton51;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel19;
-    private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel23;
-    private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel25;
-    private javax.swing.JLabel jLabel26;
-    private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel28;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel21;
@@ -1031,8 +847,6 @@ public class WindowWithElevator extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel44;
     private javax.swing.JPanel jPanel45;
     private javax.swing.JPanel jPanel46;
-    private javax.swing.JPanel jPanel47;
-    private javax.swing.JPanel jPanel48;
     private javax.swing.JPanel jPanel49;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel52;

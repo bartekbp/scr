@@ -4,7 +4,7 @@
 	Component	: exe
 	Configuration 	: DefaultConfig
 	Model Element	: MoveControllerE
-//!	Generated Date	: Thu, 21, Nov 2013 
+//!	Generated Date	: Fri, 22, Nov 2013 
 	File Path	: exe/DefaultConfig/Default/MoveControllerE.java
 *********************************************************************/
 
@@ -23,7 +23,7 @@ import com.ibm.rational.rhapsody.oxf.RiJEvent;
 //## event MoveControllerE(int) 
 public class MoveControllerE extends RiJEvent {
     
-    public static final int MoveControllerE_Default_id = 18646;		//## ignore 
+    public static final int MoveControllerE_Default_id = 18642;		//## ignore 
     
     public int level;
     

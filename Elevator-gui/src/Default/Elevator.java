@@ -131,6 +131,57 @@ public class Elevator implements RiJStateConcept {
         initRelations(p_thread);
     }
     
+    /**
+     * @param level
+     * @param areOpen
+    */
+    //## operation GenDoorsOpen(int,boolean) 
+    public void GenDoorsOpen(int level, boolean areOpen) {
+        //#[ operation GenDoorsOpen(int,boolean) 
+        dc.gen(new DoorsOpened(level,areOpen));
+        //#]
+    }
+    
+    /**
+     * @param level
+     * @param origin
+    */
+    //## operation GenMove(int,int) 
+    public void GenMove(int level, int origin) {
+        //#[ operation GenMove(int,int) 
+        if(effectors != null) {
+        	effectors.debugMessage("Sending Move");
+        }
+        mc.gen(new Move(level,origin));
+        //#]
+    }
+    
+    /**
+     * @param isOverloaded
+    */
+    //## operation GenOverload(boolean) 
+    public void GenOverload(boolean isOverloaded) {
+        //#[ operation GenOverload(boolean) 
+        lc.gen(new OverLoaded(isOverloaded));     
+        if(effectors!=null) {
+        	effectors.debugMessage("gen overload " + isOverloaded);
+        }
+        //#]
+    }
+    
+    /**
+     * @param level
+    */
+    //## operation GenReady(int) 
+    public void GenReady(int level) {
+        //#[ operation GenReady(int) 
+        if(effectors!=null) {
+        	effectors.debugMessage("genReady entered");
+        }
+        rc.gen(new Ready(level));
+        //#]
+    }
+    
     //## auto_generated 
     public Elevator.ElevatorsEffectors getEffectors() {
         return effectors;
@@ -701,12 +752,16 @@ public class Elevator implements RiJStateConcept {
         public int StoppedTakeMoveControllerE() {
             MoveControllerE params = (MoveControllerE) event;
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
-            Stopped_exit();
-            //#[ transition 13 
-            requests.add(0, params.level);
-            //#]
-            Moving_entDef();
-            res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+            //## transition 13 
+            if(!(lc.isOverloaded || fl.get(0).areDoorsOpened || fl.get(1).areDoorsOpened || fl.get(2).areDoorsOpened || fl.get(3).areDoorsOpened ))
+                {
+                    Stopped_exit();
+                    //#[ transition 13 
+                    requests.add(0, params.level);
+                    //#]
+                    Moving_entDef();
+                    res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+                }
             return res;
         }
         
@@ -810,12 +865,16 @@ public class Elevator implements RiJStateConcept {
         public int waitingForRequestTakeBringHere() {
             BringHere params = (BringHere) event;
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
-            waitingForRequest_exit();
-            //#[ transition 5 
-            requests.add(params.level);
-            //#]
-            Moving_entDef();
-            res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+            //## transition 5 
+            if(!(lc.isOverloaded || fl.get(0).areDoorsOpened || fl.get(1).areDoorsOpened || fl.get(2).areDoorsOpened || fl.get(3).areDoorsOpened ))
+                {
+                    waitingForRequest_exit();
+                    //#[ transition 5 
+                    requests.add(params.level);
+                    //#]
+                    Moving_entDef();
+                    res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+                }
             return res;
         }
         
@@ -899,7 +958,7 @@ public class Elevator implements RiJStateConcept {
             DoorsOpenedController params = (DoorsOpenedController) event;
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             //#[ transition 10 
-             fl.get(hc.level).areDoorsOpened = params.areOpened;
+             fl.get(hc.getLevel()).areDoorsOpened = params.areOpened;
             //#]
             res = RiJStateReactive.TAKE_EVENT_COMPLETE;
             return res;
@@ -996,7 +1055,7 @@ public class Elevator implements RiJStateConcept {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             Finished_exit();
             //#[ transition 9 
-            fl.get(hc.level).areDoorsOpened = true;
+            fl.get(hc.getLevel()).areDoorsOpened = true;
             //#]
             Stopped_entDef();
             res = RiJStateReactive.TAKE_EVENT_COMPLETE;
@@ -1063,7 +1122,7 @@ public class Elevator implements RiJStateConcept {
         public int StoppedTakeReadyControllerE() {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             //## transition 4 
-            if(fl.get(hc.level).isOverloaded == false && fl.get(hc.level).areDoorsOpened == false)
+            if(!(lh.isOverload || fl.get(0).areDoorsOpened || fl.get(1).areDoorsOpened || fl.get(2).areDoorsOpened || fl.get(3).areDoorsOpened ))
                 {
                     Stopped_exit();
                     Finished_entDef();
@@ -1083,7 +1142,8 @@ public class Elevator implements RiJStateConcept {
             moving = false;    
             if(effectors != null) {
             	effectors.debugMessage("EmergencyStopped entered");
-            }
+            }                      
+            
             
             //#]
         }

@@ -4,7 +4,7 @@
 	Component	: exe
 	Configuration 	: DefaultConfig
 	Model Element	: LoadController
-//!	Generated Date	: Thu, 21, Nov 2013 
+//!	Generated Date	: Fri, 22, Nov 2013 
 	File Path	: exe/DefaultConfig/Default/LoadController.java
 *********************************************************************/
 
@@ -26,6 +26,8 @@ import com.ibm.rational.rhapsody.oxf.states.*;
 public class LoadController implements RiJStateConcept {
     
     public Reactive reactive;		//## ignore 
+    
+    protected boolean isOverloaded;		//## attribute isOverloaded 
     
     protected Elevator el;		//## link el 
     
@@ -88,6 +90,16 @@ public class LoadController implements RiJStateConcept {
     //## auto_generated 
     public  LoadController(RiJThread p_thread) {
         reactive = new Reactive(p_thread);
+    }
+    
+    //## auto_generated 
+    public boolean getIsOverloaded() {
+        return isOverloaded;
+    }
+    
+    //## auto_generated 
+    public void setIsOverloaded(boolean p_isOverloaded) {
+        isOverloaded = p_isOverloaded;
     }
     
     //## auto_generated 
@@ -196,7 +208,11 @@ public class LoadController implements RiJStateConcept {
             OverLoaded params = (OverLoaded) event;
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             //#[ transition 1 
-            int level = el.hc.level; 
+            if(el.effectors != null) {
+            	el.effectors.debugMessage("overload contr");
+            }
+            int level = el.hc.getLevel();  
+            isOverloaded = params.isOverloaded;
             el.gen(new OverLoadedController(level, params.isOverloaded));
             //#]
             res = RiJStateReactive.TAKE_EVENT_COMPLETE;

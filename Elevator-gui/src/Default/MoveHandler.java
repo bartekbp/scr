@@ -4,7 +4,7 @@
 	Component	: exe
 	Configuration 	: DefaultConfig
 	Model Element	: MoveHandler
-//!	Generated Date	: Thu, 21, Nov 2013 
+//!	Generated Date	: Fri, 22, Nov 2013 
 	File Path	: exe/DefaultConfig/Default/MoveHandler.java
 *********************************************************************/
 
@@ -185,16 +185,6 @@ public class MoveHandler implements RiJStateConcept {
         }
         
         //## statechart_method 
-        public int handleTakeMove0() {
-            int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
-            //#[ transition 1 
-            el.mc.gen(new Move(0, el.hc.level));
-            //#]
-            res = RiJStateReactive.TAKE_EVENT_COMPLETE;
-            return res;
-        }
-        
-        //## statechart_method 
         public void handle_enter() {
             rootState_subState = handle;
             rootState_active = handle;
@@ -202,30 +192,60 @@ public class MoveHandler implements RiJStateConcept {
         }
         
         //## statechart_method 
-        public int handleTakeMove1() {
+        public int handleTakeMove30() {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
-            //#[ transition 2 
-            el.mc.gen(new Move(1, el.hc.level));
+            //#[ transition 13 
+            el.mc.gen(new Move(3,0));
             //#]
             res = RiJStateReactive.TAKE_EVENT_COMPLETE;
             return res;
         }
         
         //## statechart_method 
-        public int handleTakeMove2() {
+        public int handleTakeMove31() {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
-            //#[ transition 3 
-            el.mc.gen(new Move(2, el.hc.level));
+            //#[ transition 14 
+            el.mc.gen(new Move(3,1));
             //#]
             res = RiJStateReactive.TAKE_EVENT_COMPLETE;
             return res;
         }
         
         //## statechart_method 
-        public int handleTakeMove3() {
+        public int handleTakeMove20() {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
-            //#[ transition 4 
-            el.mc.gen(new Move(3, el.hc.level));
+            //#[ transition 9 
+            el.mc.gen(new Move(2,0));
+            //#]
+            res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+            return res;
+        }
+        
+        //## statechart_method 
+        public int handleTakeMove32() {
+            int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
+            //#[ transition 15 
+            el.mc.gen(new Move(3,2));
+            //#]
+            res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+            return res;
+        }
+        
+        //## statechart_method 
+        public int handleTakeMove21() {
+            int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
+            //#[ transition 10 
+            el.mc.gen(new Move(2,1));
+            //#]
+            res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+            return res;
+        }
+        
+        //## statechart_method 
+        public int handleTakeMove10() {
+            int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
+            //#[ transition 5 
+            el.mc.gen(new Move(1,0));
             //#]
             res = RiJStateReactive.TAKE_EVENT_COMPLETE;
             return res;
@@ -238,7 +258,77 @@ public class MoveHandler implements RiJStateConcept {
         }
         
         //## statechart_method 
+        public int handleTakeMove33() {
+            int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
+            //#[ transition 16 
+            el.mc.gen(new Move(3,3));
+            //#]
+            res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+            return res;
+        }
+        
+        //## statechart_method 
+        public int handleTakeMove22() {
+            int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
+            //#[ transition 11 
+            el.mc.gen(new Move(2,2));
+            //#]
+            res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+            return res;
+        }
+        
+        //## statechart_method 
+        public int handleTakeMove11() {
+            int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
+            //#[ transition 6 
+            el.mc.gen(new Move(1,1));
+            //#]
+            res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+            return res;
+        }
+        
+        //## statechart_method 
+        public int handleTakeMove00() {
+            int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
+            //#[ transition 1 
+            el.mc.gen(new Move(0, 0));
+            //#]
+            res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+            return res;
+        }
+        
+        //## statechart_method 
         public void handleExit() {
+        }
+        
+        //## statechart_method 
+        public int handleTakeMove23() {
+            int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
+            //#[ transition 12 
+            el.mc.gen(new Move(2,3));
+            //#]
+            res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+            return res;
+        }
+        
+        //## statechart_method 
+        public int handleTakeMove12() {
+            int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
+            //#[ transition 7 
+            el.mc.gen(new Move(1,2));
+            //#]
+            res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+            return res;
+        }
+        
+        //## statechart_method 
+        public int handleTakeMove01() {
+            int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
+            //#[ transition 2 
+            el.mc.gen(new Move(0,1));
+            //#]
+            res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+            return res;
         }
         
         //## statechart_method 
@@ -248,6 +338,36 @@ public class MoveHandler implements RiJStateConcept {
         
         //## statechart_method 
         public void rootStateEnter() {
+        }
+        
+        //## statechart_method 
+        public int handleTakeMove13() {
+            int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
+            //#[ transition 8 
+            el.mc.gen(new Move(1,3));
+            //#]
+            res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+            return res;
+        }
+        
+        //## statechart_method 
+        public int handleTakeMove02() {
+            int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
+            //#[ transition 3 
+            el.mc.gen(new Move(0,2));
+            //#]
+            res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+            return res;
+        }
+        
+        //## statechart_method 
+        public int handleTakeMove03() {
+            int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
+            //#[ transition 4 
+            el.mc.gen(new Move(0,3));
+            //#]
+            res = RiJStateReactive.TAKE_EVENT_COMPLETE;
+            return res;
         }
         
         //## statechart_method 
@@ -271,21 +391,69 @@ public class MoveHandler implements RiJStateConcept {
         //## statechart_method 
         public int handle_takeEvent(short id) {
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
-            if(event.isTypeOf(Move3.Move3_Default_id))
+            if(event.isTypeOf(Move33.Move33_Default_id))
                 {
-                    res = handleTakeMove3();
+                    res = handleTakeMove33();
                 }
-            else if(event.isTypeOf(Move0.Move0_Default_id))
+            else if(event.isTypeOf(Move22.Move22_Default_id))
                 {
-                    res = handleTakeMove0();
+                    res = handleTakeMove22();
                 }
-            else if(event.isTypeOf(Move1.Move1_Default_id))
+            else if(event.isTypeOf(Move11.Move11_Default_id))
                 {
-                    res = handleTakeMove1();
+                    res = handleTakeMove11();
                 }
-            else if(event.isTypeOf(Move2.Move2_Default_id))
+            else if(event.isTypeOf(Move00.Move00_Default_id))
                 {
-                    res = handleTakeMove2();
+                    res = handleTakeMove00();
+                }
+            else if(event.isTypeOf(Move23.Move23_Default_id))
+                {
+                    res = handleTakeMove23();
+                }
+            else if(event.isTypeOf(Move12.Move12_Default_id))
+                {
+                    res = handleTakeMove12();
+                }
+            else if(event.isTypeOf(Move01.Move01_Default_id))
+                {
+                    res = handleTakeMove01();
+                }
+            else if(event.isTypeOf(Move13.Move13_Default_id))
+                {
+                    res = handleTakeMove13();
+                }
+            else if(event.isTypeOf(Move02.Move02_Default_id))
+                {
+                    res = handleTakeMove02();
+                }
+            else if(event.isTypeOf(Move03.Move03_Default_id))
+                {
+                    res = handleTakeMove03();
+                }
+            else if(event.isTypeOf(Move30.Move30_Default_id))
+                {
+                    res = handleTakeMove30();
+                }
+            else if(event.isTypeOf(Move31.Move31_Default_id))
+                {
+                    res = handleTakeMove31();
+                }
+            else if(event.isTypeOf(Move20.Move20_Default_id))
+                {
+                    res = handleTakeMove20();
+                }
+            else if(event.isTypeOf(Move32.Move32_Default_id))
+                {
+                    res = handleTakeMove32();
+                }
+            else if(event.isTypeOf(Move21.Move21_Default_id))
+                {
+                    res = handleTakeMove21();
+                }
+            else if(event.isTypeOf(Move10.Move10_Default_id))
+                {
+                    res = handleTakeMove10();
                 }
             
             return res;

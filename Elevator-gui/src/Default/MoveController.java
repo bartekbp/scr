@@ -4,7 +4,7 @@
 	Component	: exe
 	Configuration 	: DefaultConfig
 	Model Element	: MoveController
-//!	Generated Date	: Thu, 21, Nov 2013 
+//!	Generated Date	: Fri, 22, Nov 2013 
 	File Path	: exe/DefaultConfig/Default/MoveController.java
 *********************************************************************/
 
@@ -223,6 +223,9 @@ public class MoveController implements RiJStateConcept {
             Move params = (Move) event;
             int res = RiJStateReactive.TAKE_EVENT_NOT_CONSUMED;
             //#[ transition 1 
+            if(el.effectors != null) {
+            	el.effectors.debugMessage("Move " + params.level + " " + params.origin);
+            }
             if(params.origin == el.hc.level) {
             	el.gen(new MoveControllerE(params.level));
             }
