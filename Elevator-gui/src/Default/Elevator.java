@@ -125,10 +125,10 @@ public class Elevator implements RiJStateConcept {
     // Constructors
     
     //## auto_generated 
-    public  Elevator(RiJThread p_thread) {
+    public  Elevator(RiJThread p_thread, int floors) {
         reactive = new Reactive(p_thread);
         fl = new ArrayList<Floor>();
-        initRelations(p_thread);
+        initRelations(p_thread, floors);
     }
     
     /**
@@ -564,12 +564,12 @@ public class Elevator implements RiJStateConcept {
     }
     
     //## auto_generated 
-    protected void initRelations(RiJThread p_thread) {
+    protected void initRelations(RiJThread p_thread, int floors) {
         bh = newBh(p_thread);
         dc = newDc(p_thread);
         dh = newDh(p_thread);
         {
-            for (int i = 0; i < 4; i++) 
+            for (int i = 0; i < floors; i++) 
                 newFl();
             
         }

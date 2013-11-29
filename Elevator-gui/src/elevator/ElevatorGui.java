@@ -27,9 +27,7 @@ public class ElevatorGui {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.print("Waiting for rhapsody");
         RiJOXF.Init(null, 0, 0, true, args);
-        System.out.print("Connected with rhapsody");
         
         try {
             UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
@@ -46,7 +44,7 @@ public class ElevatorGui {
             }
         });
         
-        p_Elevator = new Elevator(RiJMainThread.instance());
+        p_Elevator = new Elevator(RiJMainThread.instance(), 5);
         
         p_Elevator.setEffectors(new Effectors());
         p_Elevator.startBehavior();
